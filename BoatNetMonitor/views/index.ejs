@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BoatNet Monitor</title>
+    <link rel="stylesheet" href="/libs/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>BoatNet Monitor</h1>
+
+        <!-- Restart buttons -->
+        <div>
+            <button class="btn btn-primary" id="restart-hostapd">Restart Wi-Fi</button>
+            <button class="btn btn-secondary" id="restart-dnsmasq">Restart DHCP</button>
+        </div>
+
+        <!-- Routing Table -->
+        <h3 class="mt-4">Routing Table</h3>
+        <pre id="routing-table">
+            <%= routingTable %>
+        </pre>
+
+        <!-- List USB Devices -->
+        <div class="mt-4">
+            <button class="btn btn-primary" id="listUsbBtn">List USB Devices</button>
+            <pre id="usbDevices"><%= usbDevices %></pre>
+        </div>
+
+        <!-- List Network Interfaces -->
+        <h3 class="mt-4">Network Interfaces</h3>
+        <button class="btn btn-warning" id="listNetworkBtn">List Network Interfaces</button>
+        <pre id="network-interfaces">
+            <%= networkInterfaces %>
+        </pre>
+
+        <!-- Register USB Network Interface -->
+        <div class="mt-4">
+            <button class="btn btn-success" id="registerUsbBtn">Register USB Device as Network</button>
+            <input type="text" id="usbDeviceInput" class="form-control mt-2" placeholder="Enter USB Device (e.g., ttyUSB0)">
+            <pre id="network-status"></pre>
+        </div>
+
+        <div class="mt-4">
+            <h3>Start Kiwix with All ZIM Files</h3>
+            <button class="btn btn-success" id="startAllKiwixBtn">Start Kiwix Server</button>
+            <pre id="kiwixAllStatus"></pre>
+        </div>
+
+    </div>
+
+    <script src="/libs/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            // Fetch and display routing table
+            fetch('/routing-table')
+                .then(response => response.json())
+                .then(data => {
+                    $('#routing-table').text(data.routingTable);
+                })
+                .catch(error => {
+                    console.error('Error fetching routing table:', error);
+                    alert('Failed to load routing table');
+                });
+
+            // List USB Devices
+            $('#listUsbBtn').click(function() {
+                $.get('/usb-devices', function(data) {
+                    $('#usbDevices').text(data.usbDevices.join('\n'));
+                    $('#serialDevices').text(data.serialDevices.join('\n'));
+                }).fail(function() {
+                    $('#usbDevices').text('Error fetching USB devices.');
+                    $('#serialDevices').text('Error fetching serial devices.');
+                });
+            });
+
+            // List Network Interfaces
+            $('#listNetworkBtn').click(function() {
+                $.get('/network-interfaces', function(data) {
+                    $('#network-interfaces').text(data.networkInterfaces);
+                }).fail(function() {
+                    $('#network-interfaces').text('Error fetching network interfaces.');
+                });
+            });
+
+            // Register USB Network Interface
+            $('#registerUsbBtn').click(function() {
+                const usbDevice = $('#usbDeviceInput').val();
+                if (!usbDevice) {
+                    alert('Please enter a USB device.');
+                    return;
+                }
+
+                $.post(`/register-usb-network/${usbDevice}`, function(data) {
+                    $('#network-status').text(data.message);
+                }).fail(function() {
+                    $('#network-status').text('Error registering USB device as network interface.');
+                });
+            });
+
+            // Restart hostapd service
+            $('#restart-hostapd').click(function() {
+                $.post('/restart/hostapd', function(data) {
+                    alert(data.message);
+                }).fail(function() {
+                    alert('Error restarting hostapd service');
+                });
+            });
+
+            // Restart dnsmasq service
+            $('#restart-dnsmasq').click(function() {
+                $.post('/restart/dnsmasq', function(data) {
+                    alert(data.message);
+                }).fail(function() {
+                    alert('Error restarting dnsmasq service');
+                });
+            });
+
+            $('#startAllKiwixBtn').click(function() {
+                $.post('/start-kiwix-all', function(data) {
+                    $('#kiwixAllStatus').text(data.message);
+                }).fail(function() {
+                    $('#kiwixAllStatus').text('Error starting Kiwix server.');
+                });
+            });
+        });
+    </script>
+</body>
+</html>

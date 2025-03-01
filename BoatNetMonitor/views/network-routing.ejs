@@ -1,0 +1,149 @@
+<!-- views/network-routing.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Network Routing Control</title>
+    <link rel="stylesheet" href="/libs/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>BoatNet Network Routing Control</h1>
+
+        <!-- Current Routing Table -->
+        <h3>Current Routing Table</h3>
+        <pre><%= routingTable %></pre>
+
+        <!-- Network Interfaces and Selection -->
+        <h3>Choose Network Interface for Routing</h3>
+        <form id="switchRouteForm" method="POST" action="#">
+            <div class="form-group">
+                <label for="networkInterface">Select Interface:</label>
+                <select class="form-control" id="networkInterface" name="networkInterface">
+                    <% interfaces.forEach(function(interface) { %>
+                        <option value="<%= interface.split(' ')[0] %>"><%= interface.split(' ')[0] %></option>
+                    <% }) %>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Switch Route</button>
+        </form>
+
+        <!-- Success/Error Messages -->
+        <div id="statusMessage" class="mt-3"></div>
+
+        <!-- Ping Network Interface -->
+        <h3 class="mt-4">Ping Network Interface</h3>
+        <div class="form-group">
+            <label for="pingInterface">Select Network Interface:</label>
+            <select id="pingInterface" class="form-control">
+                <% interfaces.forEach(function(interface) { %>
+                    <option value="<%= interface.split(' ')[0] %>"><%= interface.split(' ')[0] %></option>
+                <% }) %>
+            </select>
+        </div>
+        <button class="btn btn-info" id="pingBtn">Ping Interface</button>
+        <pre id="pingResult"></pre>
+
+        <!-- Dropdown to Select Default Gateway to Delete -->
+        <h3>Select Default Gateway to Delete</h3>
+        <form id="deleteRouteForm" method="POST" action="#">
+            <div class="form-group">
+                <label for="defaultGateway">Select Gateway:</label>
+                <select class="form-control" id="defaultGateway" name="defaultGateway">
+                    <option value="192.168.68.1">192.168.68.1 (eth0)</option>
+                    <option value="192.168.225.1">192.168.225.1 (eth1)</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-danger">Process</button>
+        </form>
+
+        <!-- Success/Error Messages -->
+        <div id="statusMessage" class="mt-3"></div>
+
+        <!-- Fix Routing Button -->
+        <h3 class="mt-4">Fix Routing Conflict for eth1</h3>
+        <button class="btn btn-danger" id="fixRoutingBtn">Fix Routing</button>
+        <div id="routing-status" class="mt-3"></div>
+
+        <!-- Enable Masquerade Button -->
+        <h3 class="mt-4">Enable NAT Masquerading</h3>
+        <button class="btn btn-success" id="enableMasqueradeBtn">Enable Masquerade eth1</button>
+        <button class="btn btn-success" id="enableMasqueradeBtn2">Enable Masquerade eth0</button>
+        <pre id="masqueradeStatus"></pre>
+
+        <script src="/libs/jquery-3.6.0.min.js"></script>
+        <script>
+            $(document).ready(function() {
+
+                $('#deleteRouteForm').submit(function(event) {
+                    event.preventDefault();
+                    const selectedGateway = $('#defaultGateway').val();
+
+                    // Send the selected gateway to the server to be removed
+                    $.post(`/remove-default-gateway`, { gateway: selectedGateway }, function(data) {
+                        $('#statusMessage').text(data.message).removeClass('text-danger').addClass('text-success');
+                    }).fail(function() {
+                        $('#statusMessage').text('Error removing default gateway').removeClass('text-success').addClass('text-danger');
+                    });
+                });
+
+                // Handle Fix Routing button click
+                $('#fixRoutingBtn').click(function() {
+                    $.post('/fix-routing', function(data) {
+                        $('#routing-status').text(data.message).removeClass('text-danger').addClass('text-success');
+                    }).fail(function() {
+                        $('#routing-status').text('Error fixing routing').removeClass('text-success').addClass('text-danger');
+                    });
+                });
+
+                // Handle Enable Masquerade button click
+                $('#enableMasqueradeBtn').click(function() {
+                    $.post('/enable-masquerade', function(data) {
+                        $('#masqueradeStatus').text(data.message).removeClass('text-danger').addClass('text-success');
+                    }).fail(function() {
+                        $('#masqueradeStatus').text('Error enabling masquerade').removeClass('text-success').addClass('text-danger');
+                    });
+                });
+
+                // Handle Enable Masquerade button click
+                $('#enableMasqueradeBtn2').click(function() {
+                    $.post('/enable-masquerade-0', function(data) {
+                        $('#masqueradeStatus').text(data.message).removeClass('text-danger').addClass('text-success');
+                    }).fail(function() {
+                        $('#masqueradeStatus').text('Error enabling masquerade').removeClass('text-success').addClass('text-danger');
+                    });
+                });
+
+                // Ping the selected network interface and then ping google.com
+                $('#pingBtn').click(function() {
+                    const networkInterface = $('#pingInterface').val();
+                    if (!networkInterface) {
+                        alert('Please select a network interface.');
+                        return;
+                    }
+
+                    $.post('/ping-network', { networkInterface }, function(data) {
+                        $('#pingResult').text(data.pingResult);
+                    }).fail(function() {
+                        $('#pingResult').text('Error pinging network interface.');
+                    });
+                });
+
+                // Handle form submission for switching routes
+                $('#switchRouteForm').submit(function(event) {
+                    event.preventDefault();
+
+                    const selectedInterface = $('#networkInterface').val();
+
+                    $.post(`/switch-route/${selectedInterface}`, function(data) {
+                        $('#statusMessage').text(data.message).removeClass('text-danger').addClass('text-success');
+                    }).fail(function() {
+                        $('#statusMessage').text('Error switching route').removeClass('text-success').addClass('text-danger');
+                    });
+                });
+            });
+        </script>
+    </div>
+</body>
+</html>

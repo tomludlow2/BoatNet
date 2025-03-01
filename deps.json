@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "ssh2-sftp-client": {
+      "version": "11.0.0",
+      "from": "ssh2-sftp-client",
+      "resolved": "https://registry.npmjs.org/ssh2-sftp-client/-/ssh2-sftp-client-11.0.0.tgz"
+    }
+  }
+}

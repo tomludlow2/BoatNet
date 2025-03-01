@@ -1,0 +1,17 @@
+[Unit]
+Description=BoatNet Splash Server
+After=network.target
+
+[Service]
+ExecStart=/home/tom/.nvm/versions/node/v14.21.3/bin/node /home/tom/BoatNetSplash/server.js
+WorkingDirectory=/home/tom/BoatNetSplash
+Restart=always
+User=tom
+Group=tom
+Environment=NODE_ENV=production
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=BoatNetSplash
+
+[Install]
+WantedBy=multi-user.target

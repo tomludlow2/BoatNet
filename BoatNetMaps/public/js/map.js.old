@@ -1,0 +1,20 @@
+var map = L.map('map').setView([51.505, -0.09], 13);  // Initial position and zoom
+
+// OpenStreetMap Tile Layer (Land)
+var osmLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+});
+
+// OpenSeaMap Tile Layer (Sea)
+var openSeaMapLayer = L.tileLayer('https://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, <a href="http://openseamap.org/">OpenSeaMap</a> contributors'
+});
+
+// Add the OpenStreetMap layer by default
+osmLayer.addTo(map);
+
+// Add a layer control to switch between layers
+L.control.layers({
+    'Land (OSM)': osmLayer,
+    'Sea (OpenSeaMap)': openSeaMapLayer
+}).addTo(map);

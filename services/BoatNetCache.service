@@ -1,0 +1,13 @@
+[Unit]
+Description=BoatNetCache News Caching Service
+After=network.target
+
+[Service]
+ExecStart=/home/tom/.nvm/versions/node/v20.18.2/bin/node /home/tom/BoatNetCache/server.js
+WorkingDirectory=/home/tom/BoatNetCache
+Restart=always
+User=tom
+Environment=NODE_ENV=production
+
+[Install]
+WantedBy=multi-user.target

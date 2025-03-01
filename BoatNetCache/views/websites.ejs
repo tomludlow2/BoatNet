@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BoatNet Website Cache</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            color: #333;
+        }
+        .button {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 20px;
+            color: white;
+            background-color: red;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 10px;
+        }
+        .button:hover {
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cached Websites</h1>
+    <ul>
+      <% websites.forEach(website => { %>
+        <li>
+          <strong><%= website.name %></strong>
+          <% if (website.url) { %>
+            - <a href="<%= website.url %>" target="_blank">View</a>
+          <% } else { %>
+            - No main page found
+          <% } %>
+        </li>
+      <% }); %>
+    </ul>
+</body>
+</html>

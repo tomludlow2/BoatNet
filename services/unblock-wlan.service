@@ -1,0 +1,12 @@
+[Unit]
+Description=Unblock wlan0 on boot
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/sbin/rfkill unblock wlan
+RemainAfterExit=true
+
+[Install]
+WantedBy=multi-user.target
+

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Control Panel</title>
+  <link href="/libs/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+  <div class="container py-5">
+    <h1 class="text-center mb-4">AT Command Control Panel</h1>
+
+    <form action="/control" method="POST">
+      <div class="mb-3">
+        <label for="command" class="form-label">Enter AT Command:</label>
+        <input type="text" class="form-control" id="command" name="command" placeholder="AT+CGPSINFO">
+      </div>
+
+      <div class="mb-3">
+        <label for="atCommands" class="form-label">Select a GPS AT Command:</label>
+        <select class="form-select" id="atCommands">
+          <option value="">-- Select Command --</option>
+          <option value="AT+CGPSINFO">AT+CGPSINFO - Get GPS information</option>
+          <option value="AT+CGPSSTATUS?">AT+CGPSSTATUS? - Get GPS status</option>
+          <option value="AT+CGPSPWR=1">AT+CGPSPWR=1 - Turn on GPS power</option>
+          <option value="AT+CGPSPWR=0">AT+CGPSPWR=0 - Turn off GPS power</option>
+          <option value="AT+CGPSRST=0">AT+CGPSRST=0 - GPS hot start</option>
+          <option value="AT+CGPSRST=1">AT+CGPSRST=1 - GPS warm start</option>
+          <option value="AT+CGPSRST=2">AT+CGPSRST=2 - GPS cold start</option>
+        </select>
+      </div>
+
+      <button type="submit" class="btn btn-primary">Send Command</button>
+    </form>
+
+    <div class="text-center mt-4">
+      <button id="checkPortBtn" class="btn btn-info">Check /dev/ttyUSB2 Usage</button>
+    </div>
+
+    <% if (response) { %>
+      <div class="alert alert-info mt-4">
+        <h5>Response:</h5>
+        <pre><%= response %></pre>
+      </div>
+    <% } %>
+
+    <% if (portInfo) { %>
+      <div class="alert alert-warning mt-4">
+        <h5>/dev/ttyUSB2 Usage:</h5>
+        <pre><%= portInfo %></pre>
+      </div>
+    <% } %>
+
+    <div class="text-center mt-4">
+      <a href="/" class="btn btn-secondary">Back to GPS View</a>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById('atCommands').addEventListener('change', function() {
+      document.getElementById('command').value = this.value;
+    });
+
+    document.getElementById('checkPortBtn').addEventListener('click', function() {
+      window.location.href = '/check-port';
+    });
+  </script>
+
+  <script src="/libs/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,486 @@
+[
+  {
+    "creator": "alex",
+    "title": "Back up your Garmin activity data on a Raspberry Pi",
+    "link": "https://raspi.tv/2020/back-up-your-garmin-activity-data-on-a-raspberry-pi",
+    "pubDate": "Tue, 28 Jul 2020 00:00:51 +0000",
+    "dc:creator": "alex",
+    "comments": "https://raspi.tv/2020/back-up-your-garmin-activity-data-on-a-raspberry-pi#comments",
+    "content": "Anyone who owns a Garmin watch, bike computer or other activity logging computer can&#8217;t have failed to notice the 3 day outage on Garmin Connect over the weekend of 24-26th July 2020. Being denied access to a large portion of my data made me swiftly evaluate my (lack of) backup strategy. I expect it also <a href='https://raspi.tv/2020/back-up-your-garmin-activity-data-on-a-raspberry-pi' class='excerpt-more'>[...more...]</a>",
+    "contentSnippet": "Anyone who owns a Garmin watch, bike computer or other activity logging computer can’t have failed to notice the 3 day outage on Garmin Connect over the weekend of 24-26th July 2020. Being denied access to a large portion of my data made me swiftly evaluate my (lack of) backup strategy. I expect it also [...more...]",
+    "guid": "https://raspi.tv/?p=11466",
+    "categories": [
+      "python programming",
+      "software installation",
+      "backup your garmin data",
+      "download garmin data on raspberry pi"
+    ],
+    "isoDate": "2020-07-28T00:00:51.000Z"
+  },
+  {
+    "creator": "alex",
+    "title": "How much power does the Pi4B use? Power Measurements",
+    "link": "https://raspi.tv/2019/how-much-power-does-the-pi4b-use-power-measurements",
+    "pubDate": "Tue, 25 Jun 2019 06:03:26 +0000",
+    "dc:creator": "alex",
+    "comments": "https://raspi.tv/2019/how-much-power-does-the-pi4b-use-power-measurements#comments",
+    "content": "Each time a new Pi comes out, I usually publish some power consumption figures, mainly for those people who want to estimate battery durations. So my tests are quite simple. Procedure With just an HDMI screen and a USB keyboard/mouse dongle connected, the Pi current usage was measured using my non-invasive UNI-T clamp meter and <a href='https://raspi.tv/2019/how-much-power-does-the-pi4b-use-power-measurements' class='excerpt-more'>[...more...]</a>",
+    "contentSnippet": "Each time a new Pi comes out, I usually publish some power consumption figures, mainly for those people who want to estimate battery durations. So my tests are quite simple. Procedure With just an HDMI screen and a USB keyboard/mouse dongle connected, the Pi current usage was measured using my non-invasive UNI-T clamp meter and [...more...]",
+    "guid": "https://raspi.tv/?p=11356",
+    "categories": [
+      "Electronics",
+      "Raspberry Pi Hardware",
+      "how much power does raspberry pi 4B use",
+      "power consumption Pi4B",
+      "Raspberry Pi 4 power usage data and chart"
+    ],
+    "isoDate": "2019-06-25T06:03:26.000Z"
+  },
+  {
+    "creator": "alex",
+    "title": "Raspberry Pi 4 launches with BCM2711 quad-core Cortex-A72 64-bit SoC running at 1.5GHz with dual 4K display capability",
+    "link": "https://raspi.tv/2019/raspberry-pi-4-launches-with-bcm2711-quad-core-cortex-a72-64-bit-soc-running-at-1-5ghz-with-dual-4k-display-capability",
+    "pubDate": "Mon, 24 Jun 2019 05:59:26 +0000",
+    "dc:creator": "alex",
+    "comments": "https://raspi.tv/2019/raspberry-pi-4-launches-with-bcm2711-quad-core-cortex-a72-64-bit-soc-running-at-1-5ghz-with-dual-4k-display-capability#comments",
+    "content": "Raspberry Pi 4B launches today. It&#8217;s a fresh new generation of Pi with brand new silicon &#8211; the Broadcom BCM2711, quad-core Cortex-A72 (ARM v8) 64-bit SoC running at 1.5GHz. The new VC6 GPU is able to drive dual 4Kp30 displays and can handle H.265 decode at 4Kp60. It has true Gigabit ethernet (independent of USB), <a href='https://raspi.tv/2019/raspberry-pi-4-launches-with-bcm2711-quad-core-cortex-a72-64-bit-soc-running-at-1-5ghz-with-dual-4k-display-capability' class='excerpt-more'>[...more...]</a>",
+    "contentSnippet": "Raspberry Pi 4B launches today. It’s a fresh new generation of Pi with brand new silicon – the Broadcom BCM2711, quad-core Cortex-A72 (ARM v8) 64-bit SoC running at 1.5GHz. The new VC6 GPU is able to drive dual 4Kp30 displays and can handle H.265 decode at 4Kp60. It has true Gigabit ethernet (independent of USB), [...more...]",
+    "guid": "https://raspi.tv/?p=11282",
+    "categories": [
+      "Product Launch",
+      "raspberry pi",
+      "Raspberry Pi Hardware",
+      "Raspberry Pi 4",
+      "Raspberry Pi 4 gigabit ethernet",
+      "Raspberry Pi 4 launch",
+      "Raspberry Pi 4 USB3"
+    ],
+    "isoDate": "2019-06-24T05:59:26.000Z"
+  },
+  {
+    "creator": "alex",
+    "title": "Development of a new product – RasPiO Breadboard Pi Bridge (BBPi)",
+    "link": "https://raspi.tv/2019/development-of-a-new-product-raspio-breadboard-pi-bridge-bbpi",
+    "pubDate": "Tue, 26 Mar 2019 15:31:43 +0000",
+    "dc:creator": "alex",
+    "comments": "https://raspi.tv/2019/development-of-a-new-product-raspio-breadboard-pi-bridge-bbpi#comments",
+    "content": "Today I launched the RasPiO Breadboard Pi Bridge (BBPi for short). It&#8217;s a PCB that breaks out all the GPIO ports of a Raspberry Pi in order on a half-size breadboard, complete with a Perspex platform to hold it all nicely together. It&#8217;s a clean, robust and elegant solution for simple electronics tinkering with Pi. <a href='https://raspi.tv/2019/development-of-a-new-product-raspio-breadboard-pi-bridge-bbpi' class='excerpt-more'>[...more...]</a>",
+    "contentSnippet": "Today I launched the RasPiO Breadboard Pi Bridge (BBPi for short). It’s a PCB that breaks out all the GPIO ports of a Raspberry Pi in order on a half-size breadboard, complete with a Perspex platform to hold it all nicely together. It’s a clean, robust and elegant solution for simple electronics tinkering with Pi. [...more...]",
+    "guid": "https://raspi.tv/?p=11236",
+    "categories": [
+      "Electronics",
+      "raspberry pi",
+      "BBPi",
+      "RasPiO Breadboard Pi"
+    ],
+    "isoDate": "2019-03-26T15:31:43.000Z"
+  },
+  {
+    "creator": "alex",
+    "title": "Making a fairly simple bike dashcam with Raspberry Pi – “Live project blog” pt5 Road Testing",
+    "link": "https://raspi.tv/2018/making-a-fairly-simple-bike-dashcam-with-raspberry-pi-live-project-blog-pt5-road-testing",
+    "pubDate": "Fri, 21 Dec 2018 00:01:47 +0000",
+    "dc:creator": "alex",
+    "comments": "https://raspi.tv/2018/making-a-fairly-simple-bike-dashcam-with-raspberry-pi-live-project-blog-pt5-road-testing#comments",
+    "content": "The installation &#8216;proper&#8217; was finished in the previous post (part 4), so I grabbed a small &#8216;weather window&#8217; and went out for a 16 mile ride on one of my regular routes to test out the system. It was very windy and rather cloudy but I was very keen to see how the bike dashcam <a href='https://raspi.tv/2018/making-a-fairly-simple-bike-dashcam-with-raspberry-pi-live-project-blog-pt5-road-testing' class='excerpt-more'>[...more...]</a>",
+    "contentSnippet": "The installation ‘proper’ was finished in the previous post (part 4), so I grabbed a small ‘weather window’ and went out for a 16 mile ride on one of my regular routes to test out the system. It was very windy and rather cloudy but I was very keen to see how the bike dashcam [...more...]",
+    "guid": "https://raspi.tv/?p=11194",
+    "categories": [
+      "Electronics",
+      "python programming",
+      "Raspberry Pi Camera",
+      "Raspberry Pi Hardware",
+      "bike electronic rearview mirror",
+      "Making a bike dashcam",
+      "raspberry pi dashcam bike"
+    ],
+    "isoDate": "2018-12-21T00:01:47.000Z"
+  },
+  {
+    "creator": "alex",
+    "title": "Making a fairly simple bike dashcam with Raspberry Pi – “Live project blog” pt4",
+    "link": "https://raspi.tv/2018/making-a-fairly-simple-bike-dashcam-with-raspberry-pi-live-project-blog-pt4",
+    "pubDate": "Wed, 19 Dec 2018 08:49:43 +0000",
+    "dc:creator": "alex",
+    "comments": "https://raspi.tv/2018/making-a-fairly-simple-bike-dashcam-with-raspberry-pi-live-project-blog-pt4#comments",
+    "content": "In part 3 the hardware and software were all working and attached temporarily to the bike. So now it was time to have a quick test ride up and down the street. Having shot some trial footage, I realised immediately that I needed to change the angle to point the camera down more. Once that <a href='https://raspi.tv/2018/making-a-fairly-simple-bike-dashcam-with-raspberry-pi-live-project-blog-pt4' class='excerpt-more'>[...more...]</a>",
+    "contentSnippet": "In part 3 the hardware and software were all working and attached temporarily to the bike. So now it was time to have a quick test ride up and down the street. Having shot some trial footage, I realised immediately that I needed to change the angle to point the camera down more. Once that [...more...]",
+    "guid": "https://raspi.tv/?p=11164",
+    "categories": [
+      "Electronics",
+      "Laser Cutting",
+      "Making",
+      "python programming",
+      "Raspberry Pi Camera",
+      "heat forming acrylic",
+      "heat forming lucite",
+      "Heat forming Perspex",
+      "Making a bike dashcam",
+      "raspberry pi dashcam bike"
+    ],
+    "isoDate": "2018-12-19T08:49:43.000Z"
+  },
+  {
+    "creator": "alex",
+    "title": "Making a fairly simple bike dashcam with Raspberry Pi – “Live project blog” pt3",
+    "link": "https://raspi.tv/2018/making-a-fairly-simple-bike-dashcam-with-raspberry-pi-live-project-blog-pt3",
+    "pubDate": "Tue, 18 Dec 2018 08:34:40 +0000",
+    "dc:creator": "alex",
+    "comments": "https://raspi.tv/2018/making-a-fairly-simple-bike-dashcam-with-raspberry-pi-live-project-blog-pt3#comments",
+    "content": "In part 2 we got as far as a proof of concept, but I decided I didn&#8217;t like the screen I had because the touch overlay made it reflecty and &#8216;ghosty&#8217;. But I can&#8217;t find a decent small HDMI screen without a touch overlay. Another revelation followed&#8230; What About Composite? MAJOR CHANGE OF DIRECTION #2 <a href='https://raspi.tv/2018/making-a-fairly-simple-bike-dashcam-with-raspberry-pi-live-project-blog-pt3' class='excerpt-more'>[...more...]</a>",
+    "contentSnippet": "In part 2 we got as far as a proof of concept, but I decided I didn’t like the screen I had because the touch overlay made it reflecty and ‘ghosty’. But I can’t find a decent small HDMI screen without a touch overlay. Another revelation followed… What About Composite? MAJOR CHANGE OF DIRECTION #2 [...more...]",
+    "guid": "https://raspi.tv/?p=11130",
+    "categories": [
+      "Electronics",
+      "python programming",
+      "raspberry pihardware",
+      "composite screen with Pi Zero W",
+      "Making a bike dashcam",
+      "raspberry pi dashcam bike"
+    ],
+    "isoDate": "2018-12-18T08:34:40.000Z"
+  },
+  {
+    "creator": "alex",
+    "title": "Making a fairly simple bike dashcam with Raspberry Pi – “Live project blog” pt2",
+    "link": "https://raspi.tv/2018/making-a-fairly-simple-bike-dashcam-with-raspberry-pi-live-project-blog-pt2",
+    "pubDate": "Mon, 17 Dec 2018 00:01:29 +0000",
+    "dc:creator": "alex",
+    "comments": "https://raspi.tv/2018/making-a-fairly-simple-bike-dashcam-with-raspberry-pi-live-project-blog-pt2#comments",
+    "content": "In part 1, I covered the initial concept&#8217;s &#8216;evening 1 musings&#8217;. Now it&#8217;s time to get going on the project and see if we can make it work&#8230; Getting Access Point Running on 3A+ I went through this procedure&#8230; Set up wireless access point on Raspbian Stretch stopping at the part &#8220;Add routing and masquerade&#8221; <a href='https://raspi.tv/2018/making-a-fairly-simple-bike-dashcam-with-raspberry-pi-live-project-blog-pt2' class='excerpt-more'>[...more...]</a>",
+    "contentSnippet": "In part 1, I covered the initial concept’s ‘evening 1 musings’. Now it’s time to get going on the project and see if we can make it work… Getting Access Point Running on 3A+ I went through this procedure… Set up wireless access point on Raspbian Stretch stopping at the part “Add routing and masquerade” [...more...]",
+    "guid": "https://raspi.tv/?p=11081",
+    "categories": [
+      "Electronics",
+      "python programming",
+      "Raspberry Pi Camera",
+      "Making a bike dashcam",
+      "raspberry pi dashcam bike"
+    ],
+    "isoDate": "2018-12-17T00:01:29.000Z"
+  },
+  {
+    "creator": "alex",
+    "title": "Making a fairly simple bike dashcam with Raspberry Pi – “Live project blog” pt1",
+    "link": "https://raspi.tv/2018/making-a-fairly-simple-bike-dashcam-live-project-blog",
+    "pubDate": "Fri, 14 Dec 2018 00:01:07 +0000",
+    "dc:creator": "alex",
+    "comments": "https://raspi.tv/2018/making-a-fairly-simple-bike-dashcam-live-project-blog#comments",
+    "content": "Anyone who follows me on twitter can&#8217;t fail to have noticed some cycling related comments recently. Yes, cycling is the current interest. I&#8217;ve ridden about 1100 miles in the last 6 months and have learned enough to bore you to death with talk of heart zones and various items of clothing you can buy to <a href='https://raspi.tv/2018/making-a-fairly-simple-bike-dashcam-live-project-blog' class='excerpt-more'>[...more...]</a>",
+    "contentSnippet": "Anyone who follows me on twitter can’t fail to have noticed some cycling related comments recently. Yes, cycling is the current interest. I’ve ridden about 1100 miles in the last 6 months and have learned enough to bore you to death with talk of heart zones and various items of clothing you can buy to [...more...]",
+    "guid": "https://raspi.tv/?p=11049",
+    "categories": [
+      "Electronics",
+      "Raspberry Pi Camera",
+      "Raspberry Pi Hardware",
+      "Making a bike dashcam",
+      "raspberry pi dashcam bike"
+    ],
+    "isoDate": "2018-12-14T00:01:07.000Z"
+  },
+  {
+    "creator": "alex",
+    "title": "New Raspberry Pi Family Photo including Pi3A+ plus Zero WH",
+    "link": "https://raspi.tv/2018/new-raspberry-pi-family-photo-including-pi3a-plus-zero-wh",
+    "pubDate": "Tue, 11 Dec 2018 00:01:33 +0000",
+    "dc:creator": "alex",
+    "comments": "https://raspi.tv/2018/new-raspberry-pi-family-photo-including-pi3a-plus-zero-wh#comments",
+    "content": "When a new Raspberry Pi model is released, I like to add it to the Pi Family Photo. The aim of doing this is to maintain a record of pretty much all of the versions of the Raspberry Pi which could be purchased by the public. (I don&#8217;t include prototypes.) What&#8217;s New This Time? A <a href='https://raspi.tv/2018/new-raspberry-pi-family-photo-including-pi3a-plus-zero-wh' class='excerpt-more'>[...more...]</a>",
+    "contentSnippet": "When a new Raspberry Pi model is released, I like to add it to the Pi Family Photo. The aim of doing this is to maintain a record of pretty much all of the versions of the Raspberry Pi which could be purchased by the public. (I don’t include prototypes.) What’s New This Time? A [...more...]",
+    "guid": "https://raspi.tv/?p=11039",
+    "categories": [
+      "raspberry pi",
+      "Raspberry Pi Hardware",
+      "Raspberry Pi Family Photo 3A+"
+    ],
+    "isoDate": "2018-12-11T00:01:33.000Z"
+  },
+  {
+    "creator": "alex",
+    "title": "How Much Power does Raspberry Pi 3A+ plus Use?",
+    "link": "https://raspi.tv/2018/how-much-power-does-raspberry-pi-3a-plus-use",
+    "pubDate": "Tue, 04 Dec 2018 08:25:15 +0000",
+    "dc:creator": "alex",
+    "comments": "https://raspi.tv/2018/how-much-power-does-raspberry-pi-3a-plus-use#comments",
+    "content": "When a new Pi comes out, I usually publish some power consumption figures, mainly for those people who want to estimate battery durations. So my tests are quite simple. Procedure With just an HDMI screen and a USB keyboard/mouse dongle connected, the Pi is powered using a bench power supply at 5.2V (supply current limit <a href='https://raspi.tv/2018/how-much-power-does-raspberry-pi-3a-plus-use' class='excerpt-more'>[...more...]</a>",
+    "contentSnippet": "When a new Pi comes out, I usually publish some power consumption figures, mainly for those people who want to estimate battery durations. So my tests are quite simple. Procedure With just an HDMI screen and a USB keyboard/mouse dongle connected, the Pi is powered using a bench power supply at 5.2V (supply current limit [...more...]",
+    "guid": "https://raspi.tv/?p=11019",
+    "categories": [
+      "raspberry pi",
+      "Raspberry Pi Hardware",
+      "Raspberry Pi 3A plus power usage"
+    ],
+    "isoDate": "2018-12-04T08:25:15.000Z"
+  },
+  {
+    "creator": "alex",
+    "title": "RasPiO Night Light KickStarter Launches",
+    "link": "https://raspi.tv/2018/raspio-night-light-kickstarter-launches",
+    "pubDate": "Tue, 17 Jul 2018 10:30:24 +0000",
+    "dc:creator": "alex",
+    "comments": "https://raspi.tv/2018/raspio-night-light-kickstarter-launches#respond",
+    "content": "Today sees the launch of my shiny new KickStarter project, the RasPiO Night Light It uses a passive infrared (PIR) motion sensor to detect the presence of a person and a light-dependent resistor (LDR) to measure light levels. When a person is detected, if it&#8217;s dark enough, the RGB LEDs will light to the chosen <a href='https://raspi.tv/2018/raspio-night-light-kickstarter-launches' class='excerpt-more'>[...more...]</a>",
+    "contentSnippet": "Today sees the launch of my shiny new KickStarter project, the RasPiO Night Light It uses a passive infrared (PIR) motion sensor to detect the presence of a person and a light-dependent resistor (LDR) to measure light levels. When a person is detected, if it’s dark enough, the RGB LEDs will light to the chosen [...more...]",
+    "guid": "https://raspi.tv/?p=10985",
+    "categories": [
+      "Uncategorized"
+    ],
+    "isoDate": "2018-07-17T10:30:24.000Z"
+  },
+  {
+    "creator": "alex",
+    "title": "New RasPiO Portsplus 3 fits all 40-pin Pi – Launch offer FREE + shipping",
+    "link": "https://raspi.tv/2018/new-raspio-portsplus-3-fits-all-40-pin-pi-launch-offer-free-shipping",
+    "pubDate": "Fri, 01 Jun 2018 07:43:49 +0000",
+    "dc:creator": "alex",
+    "comments": "https://raspi.tv/2018/new-raspio-portsplus-3-fits-all-40-pin-pi-launch-offer-free-shipping#respond",
+    "content": "Shortly after the Raspberry Pi 3B+ came out, I realised that the PoE pins prevent the RasPiO Portsplus from fitting on the GPIO header. Here you go: https://t.co/Vq2HP9zLW2. I had to Dremel the end off to accommodate the PoE pins. I&#39;m not sure if @RasPiTV has plans to amend it. &#8212; Raspberry Pi (@Raspberry_Pi) March <a href='https://raspi.tv/2018/new-raspio-portsplus-3-fits-all-40-pin-pi-launch-offer-free-shipping' class='excerpt-more'>[...more...]</a>",
+    "contentSnippet": "Shortly after the Raspberry Pi 3B+ came out, I realised that the PoE pins prevent the RasPiO Portsplus from fitting on the GPIO header. Here you go: https://t.co/Vq2HP9zLW2. I had to Dremel the end off to accommodate the PoE pins. I'm not sure if @RasPiTV has plans to amend it. — Raspberry Pi (@Raspberry_Pi) March [...more...]",
+    "guid": "http://raspi.tv/?p=10965",
+    "categories": [
+      "Electronics",
+      "Portsplus 3",
+      "Raspberry Pi port label",
+      "RasPiO"
+    ],
+    "isoDate": "2018-06-01T07:43:49.000Z"
+  },
+  {
+    "creator": "alex",
+    "title": "Dremel Table Saw Trimming RasPiO GPIO Rulers",
+    "link": "https://raspi.tv/2018/dremel-table-saw-trimming-raspio-gpio-rulers",
+    "pubDate": "Fri, 18 May 2018 07:09:28 +0000",
+    "dc:creator": "alex",
+    "comments": "https://raspi.tv/2018/dremel-table-saw-trimming-raspio-gpio-rulers#comments",
+    "content": "In HackSpace Magazine issue 5, I wrote an article on how to &#8220;Make a Dremel Table Saw&#8221; This week I took delivery of a new batch of RasPiO GPIO Rulers and in QC checking these, I found that they needed a little bit more processing before release. There was a little &#8216;spike&#8217; in one corner <a href='https://raspi.tv/2018/dremel-table-saw-trimming-raspio-gpio-rulers' class='excerpt-more'>[...more...]</a>",
+    "contentSnippet": "In HackSpace Magazine issue 5, I wrote an article on how to “Make a Dremel Table Saw” This week I took delivery of a new batch of RasPiO GPIO Rulers and in QC checking these, I found that they needed a little bit more processing before release. There was a little ‘spike’ in one corner [...more...]",
+    "guid": "http://raspi.tv/?p=10960",
+    "categories": [
+      "Making",
+      "Dremel Table saw trimming RasPiO GPIO rulers",
+      "Make a Dremel Table Saw"
+    ],
+    "isoDate": "2018-05-18T07:09:28.000Z"
+  },
+  {
+    "creator": "alex",
+    "title": "Raspberry Pi 3B Plus Family Photo Update March 2018",
+    "link": "https://raspi.tv/2018/raspberry-pi-3b-plus-family-photo-update-march-2018",
+    "pubDate": "Fri, 16 Mar 2018 07:55:48 +0000",
+    "dc:creator": "alex",
+    "comments": "https://raspi.tv/2018/raspberry-pi-3b-plus-family-photo-update-march-2018#comments",
+    "content": "One of my other little launch week traditions for a new Pi launch is to update the Pi Family Photo. This time we&#8217;ve got three new members since a year ago when it was last updated for the Pi Zero W launch. The aim of doing this is to maintain a record of pretty much <a href='https://raspi.tv/2018/raspberry-pi-3b-plus-family-photo-update-march-2018' class='excerpt-more'>[...more...]</a>",
+    "contentSnippet": "One of my other little launch week traditions for a new Pi launch is to update the Pi Family Photo. This time we’ve got three new members since a year ago when it was last updated for the Pi Zero W launch. The aim of doing this is to maintain a record of pretty much [...more...]",
+    "guid": "http://raspi.tv/?p=10910",
+    "categories": [
+      "Product Launch",
+      "Raspberry Pi Hardware",
+      "all retail editions of raspberry pi",
+      "Raspberry Pi family photo Pi3B+"
+    ],
+    "isoDate": "2018-03-16T07:55:48.000Z"
+  },
+  {
+    "creator": "alex",
+    "title": "How Much Power Does Raspberry Pi 3B+ Use? Power Measurements",
+    "link": "https://raspi.tv/2018/how-much-power-does-raspberry-pi-3b-use-power-measurements",
+    "pubDate": "Thu, 15 Mar 2018 11:44:30 +0000",
+    "dc:creator": "alex",
+    "comments": "https://raspi.tv/2018/how-much-power-does-raspberry-pi-3b-use-power-measurements#comments",
+    "content": "Since the original Pi came out I&#8217;ve been interested in how much power it consumes. It&#8217;s become something of a launch week tradition to publish a new chart and some data. So much so that several people ask for it on launch day. This time the first was within 7 minutes of launch, which is <a href='https://raspi.tv/2018/how-much-power-does-raspberry-pi-3b-use-power-measurements' class='excerpt-more'>[...more...]</a>",
+    "contentSnippet": "Since the original Pi came out I’ve been interested in how much power it consumes. It’s become something of a launch week tradition to publish a new chart and some data. So much so that several people ask for it on launch day. This time the first was within 7 minutes of launch, which is [...more...]",
+    "guid": "http://raspi.tv/?p=10892",
+    "categories": [
+      "Electronics",
+      "Raspberry Pi Hardware",
+      "Raspberry Pi 3B plus power usage",
+      "Raspberry Pi power test results"
+    ],
+    "isoDate": "2018-03-15T11:44:30.000Z"
+  },
+  {
+    "creator": "alex",
+    "title": "New Raspberry Pi model 3B+ 1.4 GHz, 330Mbit Ethernet, 802.11ac, PoE",
+    "link": "https://raspi.tv/2018/new-raspberry-pi-model-3b-1-4-ghz-330mbit-ethernet-802-11ac-poe",
+    "pubDate": "Wed, 14 Mar 2018 06:59:29 +0000",
+    "dc:creator": "alex",
+    "comments": "https://raspi.tv/2018/new-raspberry-pi-model-3b-1-4-ghz-330mbit-ethernet-802-11ac-poe#comments",
+    "content": "It&#8217;s Pi day (if you do dates in the illogical MM/DD/YY format) so Raspberry Pi is releasing a new version of the Pi 3B. It&#8217;s called the 3B+, which is logical because it has more to offer than the 3B and is also in keeping with previous Pi naming conventions. It contains several incremental improvements, <a href='https://raspi.tv/2018/new-raspberry-pi-model-3b-1-4-ghz-330mbit-ethernet-802-11ac-poe' class='excerpt-more'>[...more...]</a>",
+    "contentSnippet": "It’s Pi day (if you do dates in the illogical MM/DD/YY format) so Raspberry Pi is releasing a new version of the Pi 3B. It’s called the 3B+, which is logical because it has more to offer than the 3B and is also in keeping with previous Pi naming conventions. It contains several incremental improvements, [...more...]",
+    "guid": "http://raspi.tv/?p=10835",
+    "categories": [
+      "Product Launch",
+      "Raspberry Pi Hardware",
+      "BCM2837B0",
+      "Raspberry Pi 3B plus",
+      "Raspberry Pi gigabit ethernet"
+    ],
+    "isoDate": "2018-03-14T06:59:29.000Z"
+  },
+  {
+    "creator": "alex",
+    "title": "How to tap a thread in acrylic Perspex, Lucite, Plexiglass using your cordless drill driver",
+    "link": "https://raspi.tv/2018/how-to-tap-a-thread-in-acrylic-perspex-lucite-plexiglass-using-your-cordless-drill-driver",
+    "pubDate": "Mon, 26 Feb 2018 00:01:55 +0000",
+    "dc:creator": "alex",
+    "comments": "https://raspi.tv/2018/how-to-tap-a-thread-in-acrylic-perspex-lucite-plexiglass-using-your-cordless-drill-driver#comments",
+    "content": "I recently bought a laser cutter (running on a Pi) and started working with acrylic (Perspex). I&#8217;ve sawn, routed and drilled Perspex before. It machines beautifully as long as you&#8217;re not too &#8216;greedy&#8217; with your cuts (and if you&#8217;re too greedy, it cracks). In exploring the material, I wanted to investigate thread tapping as I&#8217;d <a href='https://raspi.tv/2018/how-to-tap-a-thread-in-acrylic-perspex-lucite-plexiglass-using-your-cordless-drill-driver' class='excerpt-more'>[...more...]</a>",
+    "contentSnippet": "I recently bought a laser cutter (running on a Pi) and started working with acrylic (Perspex). I’ve sawn, routed and drilled Perspex before. It machines beautifully as long as you’re not too ‘greedy’ with your cuts (and if you’re too greedy, it cracks). In exploring the material, I wanted to investigate thread tapping as I’d [...more...]",
+    "guid": "http://raspi.tv/?p=10785",
+    "categories": [
+      "Laser Cutting",
+      "Making",
+      "how to tap lucite",
+      "how to tap plexiglass",
+      "Tap acrylic with drill driver",
+      "tapping a thread in perspex",
+      "thread tapping acrylic",
+      "threading acrylic"
+    ],
+    "isoDate": "2018-02-26T00:01:55.000Z"
+  },
+  {
+    "creator": "alex",
+    "title": "Run a K40 Laser Cutter from Your Raspberry Pi with K40 Whisperer",
+    "link": "https://raspi.tv/2018/run-a-k40-laser-cutter-from-your-raspberry-pi-with-k40-whisperer",
+    "pubDate": "Mon, 19 Feb 2018 00:01:03 +0000",
+    "dc:creator": "alex",
+    "comments": "https://raspi.tv/2018/run-a-k40-laser-cutter-from-your-raspberry-pi-with-k40-whisperer#comments",
+    "content": "I bought a Chinese K40-style laser cutter about three weeks ago and I&#8217;ve been spending quite a bit of time playing with it learning how best to use it. It&#8217;s an eminently hackable design, and while mine could cut 3mm acrylic OK &#8216;straight out of the box&#8217;, there are many things that can be done <a href='https://raspi.tv/2018/run-a-k40-laser-cutter-from-your-raspberry-pi-with-k40-whisperer' class='excerpt-more'>[...more...]</a>",
+    "contentSnippet": "I bought a Chinese K40-style laser cutter about three weeks ago and I’ve been spending quite a bit of time playing with it learning how best to use it. It’s an eminently hackable design, and while mine could cut 3mm acrylic OK ‘straight out of the box’, there are many things that can be done [...more...]",
+    "guid": "http://raspi.tv/?p=10728",
+    "categories": [
+      "Laser Cutting",
+      "Making",
+      "software installation",
+      "control K40 laser cutter with raspberry pi",
+      "k40 laser cutter open source software",
+      "k40 whisperer on raspberry pi"
+    ],
+    "isoDate": "2018-02-19T00:01:03.000Z"
+  },
+  {
+    "creator": "alex",
+    "title": "Using Wemos D1 mini to control a brushless motor with ESC and servo signals",
+    "link": "https://raspi.tv/2018/using-wemos-d1-mini-to-control-a-brushless-motor-with-esc-and-servo-signals",
+    "pubDate": "Mon, 12 Feb 2018 00:01:07 +0000",
+    "dc:creator": "alex",
+    "comments": "https://raspi.tv/2018/using-wemos-d1-mini-to-control-a-brushless-motor-with-esc-and-servo-signals#comments",
+    "content": "I&#8217;ve recently become interested in making &#8220;machines&#8221; of various sorts. I was sorting through some of my RC (radio control) plane &#8220;stash&#8221; the other day and came across various brushless motors and electronic speed controllers (ESC) like these. In RC, Brushless ESCs are usually connected to a radio receiver which generates servo control pulses. So <a href='https://raspi.tv/2018/using-wemos-d1-mini-to-control-a-brushless-motor-with-esc-and-servo-signals' class='excerpt-more'>[...more...]</a>",
+    "contentSnippet": "I’ve recently become interested in making “machines” of various sorts. I was sorting through some of my RC (radio control) plane “stash” the other day and came across various brushless motors and electronic speed controllers (ESC) like these. In RC, Brushless ESCs are usually connected to a radio receiver which generates servo control pulses. So [...more...]",
+    "guid": "http://raspi.tv/?p=10695",
+    "categories": [
+      "Electronics",
+      "Input and Output",
+      "interfacing",
+      "Wemos",
+      "control brushless motor with Wemos D1 mini",
+      "control servos with Wemos",
+      "measure servo signals with oscilliscope",
+      "simulate servo signals with Wemos D1 mini"
+    ],
+    "isoDate": "2018-02-12T00:01:07.000Z"
+  },
+  {
+    "creator": "alex",
+    "title": "Cutting Female Pin Headers with a Hacked Together Dremel Jig",
+    "link": "https://raspi.tv/2018/cutting-female-pin-headers-with-a-hacked-together-dremel-jig",
+    "pubDate": "Mon, 08 Jan 2018 00:01:49 +0000",
+    "dc:creator": "alex",
+    "comments": "https://raspi.tv/2018/cutting-female-pin-headers-with-a-hacked-together-dremel-jig#comments",
+    "content": "I have an occasional need for 13-way female headers. Actually they are a component in both the RasPiO 7-seg kit and the RasPiO Breakout. But 13-way headers are not as easy to get hold of as other sizes, e.g. 15-way, unless you want to order eleventy-billion of them imported directly from China. If you only <a href='https://raspi.tv/2018/cutting-female-pin-headers-with-a-hacked-together-dremel-jig' class='excerpt-more'>[...more...]</a>",
+    "contentSnippet": "I have an occasional need for 13-way female headers. Actually they are a component in both the RasPiO 7-seg kit and the RasPiO Breakout. But 13-way headers are not as easy to get hold of as other sizes, e.g. 15-way, unless you want to order eleventy-billion of them imported directly from China. If you only [...more...]",
+    "guid": "http://raspi.tv/?p=10682",
+    "categories": [
+      "Electronics",
+      "Making",
+      "Cutting female headers",
+      "Dremel Jig to cut female pin headers",
+      "Shortening female headers"
+    ],
+    "isoDate": "2018-01-08T00:01:49.000Z"
+  },
+  {
+    "creator": "alex",
+    "title": "Make a Rain Alert System with Raspberry Pi",
+    "link": "https://raspi.tv/2017/make-a-rain-alert-system-with-raspberry-pi",
+    "pubDate": "Tue, 28 Nov 2017 00:01:31 +0000",
+    "dc:creator": "alex",
+    "comments": "https://raspi.tv/2017/make-a-rain-alert-system-with-raspberry-pi#comments",
+    "content": "You&#8217;ve been left at home in charge of the laundry. It&#8217;s already washed and hanging out to dry on the line. But you were warned &#8211; on pain of death &#8211; to bring it in if it starts to rain. The trouble is, you&#8217;re totally into whatever it is you&#8217;re coding right now and you <a href='https://raspi.tv/2017/make-a-rain-alert-system-with-raspberry-pi' class='excerpt-more'>[...more...]</a>",
+    "contentSnippet": "You’ve been left at home in charge of the laundry. It’s already washed and hanging out to dry on the line. But you were warned – on pain of death – to bring it in if it starts to rain. The trouble is, you’re totally into whatever it is you’re coding right now and you [...more...]",
+    "guid": "http://raspi.tv/?p=10599",
+    "categories": [
+      "Electronics",
+      "python programming",
+      "raspberry pi",
+      "detect raindrops",
+      "rain alarm",
+      "rain alert system",
+      "rain detector",
+      "raindrop sensor"
+    ],
+    "isoDate": "2017-11-28T00:01:31.000Z"
+  },
+  {
+    "creator": "alex",
+    "title": "Full pHAT",
+    "link": "https://raspi.tv/2017/full-phat",
+    "pubDate": "Tue, 14 Nov 2017 09:09:19 +0000",
+    "dc:creator": "alex",
+    "comments": "https://raspi.tv/2017/full-phat#respond",
+    "content": "In April this year I designed a HAT-sized PCB that would allow two pHATs to fit on one Pi. I was thinking it might make a good &#8220;over the summer&#8221; KickStarter campaign. But events conspired against me. I had trouble tracking down a source of the right stacking headers and I needed a break over <a href='https://raspi.tv/2017/full-phat' class='excerpt-more'>[...more...]</a>",
+    "contentSnippet": "In April this year I designed a HAT-sized PCB that would allow two pHATs to fit on one Pi. I was thinking it might make a good “over the summer” KickStarter campaign. But events conspired against me. I had trouble tracking down a source of the right stacking headers and I needed a break over [...more...]",
+    "guid": "http://raspi.tv/?p=10577",
+    "categories": [
+      "Electronics",
+      "Product Launch",
+      "Raspberry Pi Hardware",
+      "RasPiO FullpHAT"
+    ],
+    "isoDate": "2017-11-14T09:09:19.000Z"
+  },
+  {
+    "creator": "alex",
+    "title": "High Visibility Cycle Lights with Raspberry Pi, ESP8266 & RasPiO InsPiRing – Day 4 Build Log",
+    "link": "https://raspi.tv/2017/high-visibility-cycle-lights-with-raspberry-pi-esp8266-raspio-inspiring-day-4-build-log",
+    "pubDate": "Thu, 02 Nov 2017 08:28:11 +0000",
+    "dc:creator": "alex",
+    "comments": "https://raspi.tv/2017/high-visibility-cycle-lights-with-raspberry-pi-esp8266-raspio-inspiring-day-4-build-log#comments",
+    "content": "I&#8217;m going to combine days 4 and 5 into one final blog post and video because I want to get it finished and out there. You can find day 1 here, day 2 here and day 3 here. I&#8217;m also publishing the code today in a slightly less documented/polished state than I usually do. But <a href='https://raspi.tv/2017/high-visibility-cycle-lights-with-raspberry-pi-esp8266-raspio-inspiring-day-4-build-log' class='excerpt-more'>[...more...]</a>",
+    "contentSnippet": "I’m going to combine days 4 and 5 into one final blog post and video because I want to get it finished and out there. You can find day 1 here, day 2 here and day 3 here. I’m also publishing the code today in a slightly less documented/polished state than I usually do. But [...more...]",
+    "guid": "http://raspi.tv/?p=10472",
+    "categories": [
+      "Electronics",
+      "python programming",
+      "Raspberry Pi Hardware",
+      "LED bike indicators",
+      "programmable bike lights",
+      "RasPiO InsPiRing bicycle lights",
+      "RGB LED bike lights"
+    ],
+    "isoDate": "2017-11-02T08:28:11.000Z"
+  },
+  {
+    "creator": "alex",
+    "title": "PiJuice – testing the software and hardware plus 6W 40W solar panels video?",
+    "link": "https://raspi.tv/2017/pijuice-testing-the-software-and-hardware-plus-6w-40w-solar-panels-video",
+    "pubDate": "Wed, 11 Oct 2017 07:06:30 +0000",
+    "dc:creator": "alex",
+    "comments": "https://raspi.tv/2017/pijuice-testing-the-software-and-hardware-plus-6w-40w-solar-panels-video#comments",
+    "content": "Today we&#8217;ll take a closer look at the PiJuice and how to use it. We&#8217;ll also do a bit of testing of the PiJuice HAT and the 6W/40W solar panels. This carries on from the previous post where I had an initial look at the PiJuice. It&#8217;s mostly a video review, but there will be <a href='https://raspi.tv/2017/pijuice-testing-the-software-and-hardware-plus-6w-40w-solar-panels-video' class='excerpt-more'>[...more...]</a>",
+    "contentSnippet": "Today we’ll take a closer look at the PiJuice and how to use it. We’ll also do a bit of testing of the PiJuice HAT and the 6W/40W solar panels. This carries on from the previous post where I had an initial look at the PiJuice. It’s mostly a video review, but there will be [...more...]",
+    "guid": "http://raspi.tv/?p=10510",
+    "categories": [
+      "python programming",
+      "Raspberry Pi Hardware",
+      "Review",
+      "battery testing",
+      "Pi Supply",
+      "PiJuice",
+      "PiJuice battery testing",
+      "PiJuice solar panels testing"
+    ],
+    "isoDate": "2017-10-11T07:06:30.000Z"
+  }
+]

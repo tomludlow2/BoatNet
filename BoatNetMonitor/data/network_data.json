@@ -1,0 +1,85 @@
+{
+  "totalWlan0ToEth1": 494788019,
+  "totalEth1ToWlan0": 539922698,
+  "lastWlan0Rx": 540725591,
+  "lastEth1Tx": 587070406,
+  "devices": {
+    "62:7C:A6:18:2F:C7": {
+      "name": "62:7C:A6:18:2F:C7",
+      "totalRx": 32675026,
+      "totalTx": 147786133,
+      "lastRx": 133195593,
+      "lastTx": 812817389
+    },
+    "A0:4A:5E:D5:A9:4F": {
+      "name": "Tom Laptop",
+      "totalRx": 461439888,
+      "totalTx": 1099130332,
+      "lastRx": 540725591,
+      "lastTx": 772068290
+    },
+    "66:07:53:F1:5A:DE": {
+      "name": "66:07:53:F1:5A:DE",
+      "totalRx": 33658579,
+      "totalTx": 420287117,
+      "lastRx": 112944219,
+      "lastTx": 1085318373
+    },
+    "D2:8D:78:A8:EE:DF": {
+      "name": "D2:8D:78:A8:EE:DF",
+      "totalRx": 201903,
+      "totalTx": 298488,
+      "lastRx": 100722470,
+      "lastTx": 665329744
+    },
+    "1E:88:C2:3B:F5:A8": {
+      "name": "1E:88:C2:3B:F5:A8",
+      "totalRx": 494794545,
+      "totalTx": 1708565749,
+      "lastRx": 540725591,
+      "lastTx": 772068290
+    },
+    "94:45:60:85:EE:D6": {
+      "name": "Tom Phone",
+      "totalRx": 494794401,
+      "totalTx": 1708565749,
+      "lastRx": 540725591,
+      "lastTx": 772068290
+    },
+    "FA:3B:26:38:ED:EC": {
+      "name": "FA:3B:26:38:ED:EC",
+      "totalRx": 494784017,
+      "totalTx": 1708553525,
+      "lastRx": 540725591,
+      "lastTx": 772068290
+    },
+    "66:4F:07:E6:C4:C5": {
+      "name": "66:4F:07:E6:C4:C5",
+      "totalRx": 421489610,
+      "totalTx": 960361415,
+      "lastRx": 540725591,
+      "lastTx": 772068290
+    },
+    "E6:CE:DB:B2:E5:22": {
+      "name": "E6:CE:DB:B2:E5:22",
+      "totalRx": 34338147,
+      "totalTx": 881945192,
+      "lastRx": 112944219,
+      "lastTx": 1085318373
+    },
+    "B2:01:7A:AB:87:E3": {
+      "name": "B2:01:7A:AB:87:E3",
+      "totalRx": 444268,
+      "totalTx": 16407766,
+      "lastRx": 240558620,
+      "lastTx": 1763630519
+    },
+    "72:96:A9:9A:CB:15": {
+      "name": "72:96:A9:9A:CB:15",
+      "totalRx": 152431,
+      "totalTx": 531069,
+      "lastRx": 540725591,
+      "lastTx": 772068290
+    }
+  }
+}

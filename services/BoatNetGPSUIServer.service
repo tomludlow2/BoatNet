@@ -1,0 +1,17 @@
+[Unit]
+Description=BoatNet GPS UI Server
+After=network.target
+
+[Service]
+ExecStart=/home/tom/.nvm/versions/node/v14.21.3/bin/node /home/tom/BoatNetGPS/ui_server.js
+WorkingDirectory=/home/tom/BoatNetGPS
+Restart=always
+User=tom
+Group=tom
+Environment=NODE_ENV=production
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=BoatNetGPSUIServer
+
+[Install]
+WantedBy=multi-user.target

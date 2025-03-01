@@ -1,0 +1,54 @@
+<!-- views/dns.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Settings</title>
+    <link rel="stylesheet" href="/libs/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>DNS Settings</h1>
+
+        <!-- Display current DNS servers -->
+        <h3>Current DNS Servers</h3>
+        <ul>
+            <% dnsServers.forEach(function(dns) { %>
+                <li><%= dns %></li>
+            <% }) %>
+        </ul>
+
+        <!-- Form to update DNS servers -->
+        <h3>Update DNS Servers</h3>
+        <form id="dnsForm" method="POST" action="/update-dns">
+            <div class="form-group">
+                <label for="dnsServers">New DNS Servers (comma separated):</label>
+                <input type="text" class="form-control" id="dnsServers" name="dnsServers" value="<%= dnsServers.join(', ') %>" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Update DNS</button>
+        </form>
+
+        <!-- Success/Error Messages -->
+        <div id="statusMessage" class="mt-3"></div>
+
+        <script src="/libs/jquery-3.6.0.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                $('#dnsForm').submit(function(event) {
+                    event.preventDefault();
+                    const dnsServers = $('#dnsServers').val().split(',').map(s => s.trim());
+
+                    // Send the new DNS settings to the server
+                    $.post('/update-dns', { dnsServers: dnsServers }, function(data) {
+                        $('#statusMessage').text(data.message).removeClass('text-danger').addClass('text-success');
+                    }).fail(function() {
+                        $('#statusMessage').text('Error updating DNS settings').removeClass('text-success').addClass('text-danger');
+                    });
+                });
+            });
+        </script>
+
+    </div>
+</body>
+</html>

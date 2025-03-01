@@ -1,0 +1,13 @@
+[Unit]
+Description=BoatNetMonitor Data Tracker App
+After=network.target
+
+[Service]
+ExecStart=/home/tom/.nvm/versions/node/v20.18.2/bin/node /home/tom/BoatNetMonitor/data/tracker1.js
+WorkingDirectory=/home/tom/BoatNetMonitor/data
+Restart=always
+User=tom
+Environment=NODE_ENV=production
+
+[Install]
+WantedBy=multi-user.target

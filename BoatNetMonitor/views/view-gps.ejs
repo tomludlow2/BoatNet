@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>View GPS</title>
+  <link href="/libs/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+  <div class="container py-5">
+    <h1 class="text-center mb-4">Current GPS Location</h1>
+
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">Latitude: <%= latitude %></h4>
+            <h4 class="card-title">Longitude: <%= longitude %></h4>
+
+            <p class="card-text">Click the button below to view the location on Google Maps:</p>
+
+            <a href="<%= googleMapsLink %>" class="btn btn-primary" target="_blank">View on Google Maps</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Bootstrap JS and Popper.js (for interactive elements) -->
+  <script src="/libs/popper.min.js"></script>
+  <script src="/libs/bootstrap.min.js"></script>
+</body>
+</html>

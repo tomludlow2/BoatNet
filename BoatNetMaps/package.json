@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "axios": "^1.7.9",
+    "leaflet": "^1.9.4"
+  },
+  "name": "boatnetmaps",
+  "version": "1.0.0",
+  "description": "Boat Net Mapping Hosting Site",
+  "main": "server.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

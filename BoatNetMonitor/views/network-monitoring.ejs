@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Network Monitoring</title>
+    <link rel="stylesheet" href="/libs/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>BoatNet Network Monitoring</h1>
+
+        <!-- Network Stats -->
+        <h3>Network Stats</h3>
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Interface</th>
+                        <th>Incoming (bytes)</th>
+                        <th>Outgoing (bytes)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <% networkStats.forEach(function(stats) { %>
+                        <tr>
+                            <td><%= stats.interface %></td>
+                            <td><%= stats.incoming %></td>
+                            <td><%= stats.outgoing %></td>
+                        </tr>
+                    <% }) %>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Currently Connected Devices -->
+        <h3>Currently Connected Devices</h3>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Device Name</th>
+                    <th>IP Address</th>
+                    <th>MAC Address</th>
+                </tr>
+            </thead>
+            <tbody>
+                <% connectedDevices.forEach(function(device) { %>
+                    <tr>
+                        <td><%= device.deviceName %></td>
+                        <td><%= device.ip %></td>
+                        <td><%= device.mac %></td>
+                    </tr>
+                <% }) %>
+            </tbody>
+        </table>
+
+    </div>
+</body>
+</html>

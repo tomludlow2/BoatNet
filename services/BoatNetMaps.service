@@ -1,0 +1,17 @@
+[Unit]
+Description=BoatNet Maps Server
+After=network.target
+
+[Service]
+ExecStart=/home/tom/.nvm/versions/node/v14.21.3/bin/node /home/tom/BoatNetMaps/server.js
+WorkingDirectory=/home/tom/BoatNetMaps
+Restart=always
+User=tom
+Group=tom
+Environment=NODE_ENV=production
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=BoatNetMaps
+
+[Install]
+WantedBy=multi-user.target

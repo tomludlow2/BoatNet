@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BoatNet Access</title>
+    <link rel="stylesheet" href="/libs/bootstrap.min.css">
+    <style>
+        /* Custom styles to limit the image size */
+        .logo {
+            max-width: 300px; /* Limit the size of the logo */
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <!-- BoatNet Logo -->
+        <img src="/images/boatnet.webp" alt="BoatNet Logo" class="logo mb-4">
+
+        <h1>Welcome to BoatNet</h1>
+        <p>Please enter your device name to access the network.</p>
+        
+        <!-- Device Name Form -->
+        <form action="/submit-name" method="POST">
+            <div class="form-group">
+                <label for="deviceName">Device Name:</label>
+                <input type="text" class="form-control" id="deviceName" name="deviceName" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+        <% if (deviceInfo) { %>
+            <div class="mt-4">
+                <h3>Device Info</h3>
+                <p><strong>Device Name:</strong> <%= deviceInfo.deviceName %></p>
+                <p><strong>IP Address:</strong> <%= deviceInfo.ip %></p>
+                <p><strong>MAC Address:</strong> <%= deviceInfo.mac %></p>
+            </div>
+        <% } %>
+    </div>
+</body>
+</html>

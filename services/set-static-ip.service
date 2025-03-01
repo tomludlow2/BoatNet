@@ -1,0 +1,11 @@
+[Unit]
+Description=Set static IP for wlan0
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash -c "ip addr flush dev wlan0 && ip addr add 192.168.50.1/24 dev wlan0"
+RemainAfterExit=true
+
+[Install]
+WantedBy=multi-user.target

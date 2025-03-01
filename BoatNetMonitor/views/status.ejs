@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BoatNet Monitor - Service Status</title>
+    <link rel="stylesheet" href="/libs/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">BoatNet Monitor - Service Status</h1>
+        <table class="table table-striped mt-4">
+            <thead>
+                <tr>
+                    <th>Service</th>
+                    <th>Status</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <% for (let service in serviceStatus) { %>
+                    <tr>
+                        <td><%= service %></td>
+                        <td>
+                            <% if (serviceStatus[service] === 'Running') { %>
+                                <span class="badge badge-success">Running</span>
+                            <% } else if (serviceStatus[service] === 'Stopped') { %>
+                                <span class="badge badge-danger">Stopped</span>
+                            <% } else { %>
+                                <span class="badge badge-warning">Error</span>
+                            <% } %>
+                        </td>
+                        <td>
+                            <button class="btn btn-warning btn-sm" onclick="restartService('<%= service %>')">Restart</button>
+                        </td>
+                    </tr>
+                <% } %>
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        function restartService(service) {
+            fetch(`/restart/${service}`, { method: 'POST' })
+                .then(response => response.json())
+                .then(data => {
+                    alert(`${service} restarted successfully!`);
+                    location.reload();
+                })
+                .catch(error => {
+                    alert(`Failed to restart ${service}.`);
+                });
+        }
+    </script>
+</body>
+</html>

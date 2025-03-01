@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BoatNet Maps</title>
+    <link rel="stylesheet" href="/libs/leaflet.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            background-color: #0077b6;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+            font-size: 1.5rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        #map {
+            flex: 1;
+            width: 100%;
+        }
+
+        @media (max-width: 768px) {
+            header {
+                font-size: 1.2rem;
+                padding: 0.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>BoatNet Maps</header>
+    <div id="map"></div>
+
+    <script src="/libs/leaflet.js"></script>
+    <script>
+        var map = L.map('map').setView([51.505, -0.09], 13);  // Initial position and zoom
+
+        // OpenStreetMap Tile Layer (Land)
+        var osmLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        });
+
+        // OpenSeaMap Tile Layer (Sea)
+        var openSeaMapLayer = L.tileLayer('https://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, <a href="http://openseamap.org/">OpenSeaMap</a> contributors'
+        });
+
+        // Add the OpenStreetMap layer by default
+        osmLayer.addTo(map);
+
+        // Add a layer control to switch between layers
+        L.control.layers({
+            'Land (OSM)': osmLayer,
+            'Sea (OpenSeaMap)': openSeaMapLayer
+        }).addTo(map);
+
+        // Boat's GPS Data from the server
+        var boatLat = <%= latitude %>;
+        var boatLon = <%= longitude %>;
+
+        // Add the boat's location as a marker
+        var boatMarker = L.marker([boatLat, boatLon]).addTo(map);
+
+        // Add a popup with the Google Maps link
+        boatMarker.bindPopup(`
+            <b>The Boat Location</b><br>
+            Latitude: ${boatLat}<br>
+            Longitude: ${boatLon}<br>
+        `).openPopup();
+
+        // Center the map to the boat's location
+        map.setView([boatLat, boatLon], 13);
+
+        // Locate the user's position
+        map.locate({setView: true, maxZoom: 16});
+
+        // When the location is found, add a marker and a popup
+        map.on('locationfound', function(e) {
+            var radius = e.accuracy / 2;
+
+            L.marker(e.latlng).addTo(map)
+                .bindPopup("You are within " + radius + " meters from this point")
+                .openPopup();
+
+            L.circle(e.latlng, radius).addTo(map);  // Add a circle around the location for accuracy
+        });
+
+        // Handle errors if the location is not found
+        map.on('locationerror', function() {
+            alert("Location access denied or failed.");
+        });
+
+        // Add geolocation control
+        L.control.locate().addTo(map);
+    </script>
+</body>
+</html>

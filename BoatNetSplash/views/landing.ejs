@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to BoatNet</title>
+    <link rel="stylesheet" href="/libs/bootstrap.min.css">
+    <link rel="apple-touch-icon" href="/images/boatnet.webp">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#007bff">
+    <style>
+        body { text-align: center; padding-top: 30px; }
+        .logo { max-width: 250px; height: auto; margin-bottom: 20px; }
+        .btn-service { margin-bottom: 12px; }
+    </style>
+    <script>
+        function addToHomeScreen() {
+            if (navigator.standalone || window.matchMedia('(display-mode: standalone)').matches) {
+                alert('BoatNet is already added to your home screen!');
+            } else {
+                alert('To add BoatNet to your home screen, tap the share icon and select "Add to Home Screen".');
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="container mt-0">
+        <img src="/images/boatnet.webp" alt="BoatNet Logo" class="logo">
+        <h1>Welcome to BoatNet</h1>
+        <p>BoatNet provides local services via a 4G connection. Up to 48 devices can connect simultaneously, sharing bandwidth, so please use it responsibly.</p>
+        <button onclick="addToHomeScreen()" class="btn btn-primary mb-3">Add to Home Screen</button>
+        <h4>Available Services:</h4>
+        <div class="d-grid gap-2">
+            <a href="http://192.168.50.1:3002" class="btn btn-success btn-service">Wikipedia - Offline encyclopedia</a>
+            <a href="/maps" class="btn btn-warning btn-service">BoatNetMaps - Open-source mapping</a>
+            <a href="/gps" class="btn btn-info btn-service">BoatNetGPS - Real-time tracking</a>
+            <a href="/monitor" class="btn btn-secondary btn-service">BoatNetMonitor - System Status</a>
+            <a href="/news" class="btn btn-danger btn-service">News - Cached articles</a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,13 @@
+[Unit]
+Description=BoatNetGPS API Service
+After=network.target
+
+[Service]
+ExecStart=/home/tom/.nvm/versions/node/v20.18.2/bin/node /home/tom/BoatNetGPS/server.js
+WorkingDirectory=/home/tom/BoatNetGPS
+Restart=always
+User=tom
+Environment=NODE_ENV=production
+
+[Install]
+WantedBy=multi-user.target

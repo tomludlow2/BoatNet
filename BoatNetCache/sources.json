@@ -1,0 +1,12 @@
+[
+    {
+        "name": "BBC News",
+        "rss": "https://feeds.bbci.co.uk/news/rss.xml",
+        "articleSelector": "article p"
+    },
+    {
+        "name": "Reuters",
+        "rss": "https://www.reutersagency.com/feed/?taxonomy=best-sectors&post_type=best",
+        "articleSelector": ".article-body__content p"
+    }
+]

@@ -1,0 +1,470 @@
+[
+  {
+    "title": " ASRock's new 'Pro X3D' motherboard named for the Ryzen CPUs it is designed for ",
+    "link": "https://www.tomshardware.com/pc-components/motherboards/asrocks-new-pro-x3d-motherboard-named-for-the-ryzen-cpus-it-is-designed-for",
+    "pubDate": "Thu, 20 Feb 2025 17:35:34 +0000",
+    "enclosure": {
+      "url": "https://cdn.mos.cms.futurecdn.net/xbzZxpPuggnsGR56nKmXRN.jpg",
+      "type": "image/jpeg",
+      "length": "0"
+    },
+    "content": "\n                             ASRock introduced its first X3D-branded motherboard, identical to the Pro RS, except for the lack of Thunderbolt 4 support. The board features no apparent changes optimized for AMD X3D processors. \n                                                                                                            ",
+    "contentSnippet": "ASRock introduced its first X3D-branded motherboard, identical to the Pro RS, except for the lack of Thunderbolt 4 support. The board features no apparent changes optimized for AMD X3D processors.",
+    "guid": "vaLracSrbtf3Lm83Sk7dnb",
+    "categories": [
+      "Motherboards",
+      "PC Components"
+    ],
+    "isoDate": "2025-02-20T17:35:34.000Z"
+  },
+  {
+    "creator": " ashilov@gmail.com (Anton Shilov) ",
+    "title": " Google Cloud launches first Blackwell AI GPU-powered instances — 72-way GB200 with 72 B200 GPUs and 36 Grace CPUs ",
+    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/google-cloud-launches-first-blackwell-ai-gpu-powered-instances-72-way-gb200-with-72-b200-gpus-and-36-grace-cpus",
+    "pubDate": "Thu, 20 Feb 2025 17:03:31 +0000",
+    "author": " ashilov@gmail.com (Anton Shilov) ",
+    "enclosure": {
+      "url": "https://cdn.mos.cms.futurecdn.net/ENzqLjbjnBzZSo7uHQGEEb.jpg",
+      "type": "image/jpeg",
+      "length": "0"
+    },
+    "content": "\n                             Google Cloud's A4X VMs based on Nvidia's NVL72 machines with 72 B200 GPUs and 36 Grace CPUs are now available for rent. \n                                                                                                            ",
+    "contentSnippet": "Google Cloud's A4X VMs based on Nvidia's NVL72 machines with 72 B200 GPUs and 36 Grace CPUs are now available for rent.",
+    "guid": "RsFnasssWKuY5Lt9bX76jF",
+    "categories": [
+      "Artificial Intelligence",
+      "Tech Industry"
+    ],
+    "isoDate": "2025-02-20T17:03:31.000Z"
+  },
+  {
+    "title": " Microsoft Xbox showcases an incredibly impractical AI model for \"gameplay ideation\" ",
+    "link": "https://www.tomshardware.com/video-games/xbox/microsoft-xbox-showcases-an-incredibly-impractical-ai-model-for-gameplay-ideation",
+    "pubDate": "Thu, 20 Feb 2025 16:44:31 +0000",
+    "enclosure": {
+      "url": "https://cdn.mos.cms.futurecdn.net/FD6WZnxNRWqdJmumDkwaud.png",
+      "type": "image/png",
+      "length": "0"
+    },
+    "content": "\n                             Microsoft Xbox introduces Muse, a generative AI \"gameplay ideation\" model. \n                                                                                                            ",
+    "contentSnippet": "Microsoft Xbox introduces Muse, a generative AI \"gameplay ideation\" model.",
+    "guid": "kJW93DmYyuTqHNFBYghqK4",
+    "categories": [
+      "Xbox",
+      "Video Games",
+      "Console Gaming"
+    ],
+    "isoDate": "2025-02-20T16:44:31.000Z"
+  },
+  {
+    "title": " Chinese-made gaming GPUs get up to 120% FPS boost — new drivers and stability fixes for MTT S80 and S70 cards ",
+    "link": "https://www.tomshardware.com/pc-components/gpus/chinese-made-gaming-gpus-get-up-to-120-percent-fps-boost-new-drivers-and-stability-fixes-for-mtt-s80-and-s70-cards",
+    "pubDate": "Thu, 20 Feb 2025 16:28:17 +0000",
+    "enclosure": {
+      "url": "https://cdn.mos.cms.futurecdn.net/uvMbLn95EcYuCK78iGqYz4.png",
+      "type": "image/png",
+      "length": "0"
+    },
+    "content": "\n                             The latest driver for Moore Threads' MTT S80 and S70 promises performance improvements and stability fixes across a handful of games and applications. \n                                                                                                            ",
+    "contentSnippet": "The latest driver for Moore Threads' MTT S80 and S70 promises performance improvements and stability fixes across a handful of games and applications.",
+    "guid": "W38HUizSMzdPkeMuUm6dLA",
+    "categories": [
+      "GPUs",
+      "PC Components"
+    ],
+    "isoDate": "2025-02-20T16:28:17.000Z"
+  },
+  {
+    "title": " Raspberry Pi Pico brings a 'WOPR' of a feature to a server rack ",
+    "link": "https://www.tomshardware.com/raspberry-pi/raspberry-pi-pico-brings-a-wopr-of-a-feature-to-a-server-rack",
+    "pubDate": "Thu, 20 Feb 2025 16:23:40 +0000",
+    "enclosure": {
+      "url": "https://cdn.mos.cms.futurecdn.net/EN8RQNFkBbEL6BGNzbBSyU.png",
+      "type": "image/png",
+      "length": "0"
+    },
+    "content": "\n                             Aforsberg has created a cool LED matrix display for their 1U server rack that's decked out like the WOPR computer from the 1983 movie War Games. \n                                                                                                            ",
+    "contentSnippet": "Aforsberg has created a cool LED matrix display for their 1U server rack that's decked out like the WOPR computer from the 1983 movie War Games.",
+    "guid": "aNzHSYorxyFYofHRP6DXM6",
+    "categories": [
+      "Raspberry Pi"
+    ],
+    "isoDate": "2025-02-20T16:23:40.000Z"
+  },
+  {
+    "title": " Grok 3 used to clone Breakout game — fabled windows developer shares prompts and code ",
+    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/grok-3-used-to-clone-breakout-game-fabled-windows-developer-shares-prompts-and-code",
+    "pubDate": "Thu, 20 Feb 2025 16:09:40 +0000",
+    "enclosure": {
+      "url": "https://cdn.mos.cms.futurecdn.net/aU7ujAsKWede8NTLPX3NNA.jpg",
+      "type": "image/jpeg",
+      "length": "0"
+    },
+    "content": "\n                             Windows development legend Dave Plummer has shared the prompt and code for a Breakout clone he created in Grok 3. \n                                                                                                            ",
+    "contentSnippet": "Windows development legend Dave Plummer has shared the prompt and code for a Breakout clone he created in Grok 3.",
+    "guid": "VbFd6EV7zpDgZAeCkKKHHK",
+    "categories": [
+      "Artificial Intelligence",
+      "Tech Industry"
+    ],
+    "isoDate": "2025-02-20T16:09:40.000Z"
+  },
+  {
+    "title": " Microsoft trims File Explorer's Recent, Favorites, and Recommended content in Europe ",
+    "link": "https://www.tomshardware.com/software/windows/microsoft-trims-file-explorers-recent-favorites-and-recommended-content-in-europe",
+    "pubDate": "Thu, 20 Feb 2025 14:30:00 +0000",
+    "enclosure": {
+      "url": "https://cdn.mos.cms.futurecdn.net/TkBHr4q4dABADhgVr5NHp.jpg",
+      "type": "image/jpeg",
+      "length": "0"
+    },
+    "content": "\n                             Microsoft is removing a couple of features from a Windows 11 24H2 Preview Build in Europe to comply with the GDPR. \n                                                                                                            ",
+    "contentSnippet": "Microsoft is removing a couple of features from a Windows 11 24H2 Preview Build in Europe to comply with the GDPR.",
+    "guid": "WmXHNPnUcV2c7vbprwNSog",
+    "categories": [
+      "Windows",
+      "Software",
+      "Operating Systems"
+    ],
+    "isoDate": "2025-02-20T14:30:00.000Z"
+  },
+  {
+    "creator": " ashilov@gmail.com (Anton Shilov) ",
+    "title": " Apple rolls out its C1 modem six years after buying in the technology from Intel ",
+    "link": "https://www.tomshardware.com/tech-industry/apple-rolls-out-its-c1-modem-six-years-after-buying-in-the-technology-from-intel",
+    "pubDate": "Thu, 20 Feb 2025 13:47:30 +0000",
+    "author": " ashilov@gmail.com (Anton Shilov) ",
+    "enclosure": {
+      "url": "https://cdn.mos.cms.futurecdn.net/NxNTrS7g2eT2SNJw3ed6TT.jpg",
+      "type": "image/jpeg",
+      "length": "0"
+    },
+    "content": "\n                             Apple claims its C1 modem is the most power efficient modem ever used in an iPhone. \n                                                                                                            ",
+    "contentSnippet": "Apple claims its C1 modem is the most power efficient modem ever used in an iPhone.",
+    "guid": "hf3KpDDRWbGxrRFmwSsLpK",
+    "categories": [
+      "Tech Industry"
+    ],
+    "isoDate": "2025-02-20T13:47:30.000Z"
+  },
+  {
+    "title": " ASRock Taichi TC-1300T power supply review ",
+    "link": "https://www.tomshardware.com/pc-components/power-supplies/asrock-taichi-tc-1300t-power-supply-review",
+    "pubDate": "Thu, 20 Feb 2025 13:24:27 +0000",
+    "enclosure": {
+      "url": "https://cdn.mos.cms.futurecdn.net/hFVdpEnEQ9kudMdyJLypoK.jpg",
+      "type": "image/jpeg",
+      "length": "0"
+    },
+    "content": "\n                             The ASRock Taichi TC-1300T delivers high-efficiency power  for demanding systems with premium features and thermal performance. \n                                                                                                            ",
+    "contentSnippet": "The ASRock Taichi TC-1300T delivers high-efficiency power  for demanding systems with premium features and thermal performance.",
+    "guid": "GUfedyB73wURatVKdKe3Yo",
+    "categories": [
+      "Power Supplies",
+      "PC Components"
+    ],
+    "isoDate": "2025-02-20T13:24:27.000Z"
+  },
+  {
+    "creator": " sayem.ahmed@futurenet.com (Sayem Ahmed) ",
+    "title": " Kioxia's new 10th gen 332-layer 4.8 GB/s 3D NAND flash is 33% faster than its 8th gen ICs ",
+    "link": "https://www.tomshardware.com/tech-industry/kioxias-new-10th-gen-332-layer-4-8-gb-s-3d-nand-flash-is-33-percent-faster-than-its-8th-gen-ics",
+    "pubDate": "Thu, 20 Feb 2025 13:20:20 +0000",
+    "author": " sayem.ahmed@futurenet.com (Sayem Ahmed) ",
+    "enclosure": {
+      "url": "https://cdn.mos.cms.futurecdn.net/XHTefDnBAzfSqWBTT8KvTW.jpg",
+      "type": "image/jpeg",
+      "length": "0"
+    },
+    "content": "\n                             Kioxia's 10th generation 332-layer 3D NAND flash is up to 33% faster than prior-gen NAND, boasted the company at ISSCC 2025. \n                                                                                                            ",
+    "contentSnippet": "Kioxia's 10th generation 332-layer 3D NAND flash is up to 33% faster than prior-gen NAND, boasted the company at ISSCC 2025.",
+    "guid": "DBG4jqtndD8LaYC5cf63tM",
+    "categories": [
+      "Tech Industry"
+    ],
+    "isoDate": "2025-02-20T13:20:20.000Z"
+  },
+  {
+    "creator": " ashilov@gmail.com (Anton Shilov) ",
+    "title": " Nvidia brings back scalper-beating Verified Priority Access program for RTX 50 Founders Edition GPUs ",
+    "link": "https://www.tomshardware.com/pc-components/gpus/nvidia-brings-back-scalper-beating-verified-priority-access-for-geforce-rtx-50-founders-edition-boards",
+    "pubDate": "Thu, 20 Feb 2025 01:05:43 +0000",
+    "author": " ashilov@gmail.com (Anton Shilov) ",
+    "enclosure": {
+      "url": "https://cdn.mos.cms.futurecdn.net/vP9LdapGNSi7ELJC84BvcD.jpg",
+      "type": "image/jpeg",
+      "length": "0"
+    },
+    "content": "\n                             Select Nvidia customers in the U.S. can get GeForce RTX 5080 FE and GeForce RTX 5090 FE graphics cards directly from Nvidia with Verified Priority Access program. \n                                                                                                            ",
+    "contentSnippet": "Select Nvidia customers in the U.S. can get GeForce RTX 5080 FE and GeForce RTX 5090 FE graphics cards directly from Nvidia with Verified Priority Access program.",
+    "guid": "Wq8hKxDpnBqSKs3sDpb7ug",
+    "categories": [
+      "GPUs",
+      "PC Components"
+    ],
+    "isoDate": "2025-02-20T01:05:43.000Z"
+  },
+  {
+    "title": " Seagate's 24TB Expansion Desktop HDD is now just $279 at Best Buy ",
+    "link": "https://www.tomshardware.com/pc-components/external-hdds/seagates-large-24tb-expansion-desktop-hdd-is-now-just-usd279-at-best-buy",
+    "pubDate": "Wed, 19 Feb 2025 20:24:08 +0000",
+    "enclosure": {
+      "url": "https://cdn.mos.cms.futurecdn.net/xT8DHFGRzJ4bCFbFGAGhcX.jpg",
+      "type": "image/jpeg",
+      "length": "0"
+    },
+    "content": "\n                             Grab 24TB of desktop storage for only $279 with Seagate's Expansion External HDD. \n                                                                                                            ",
+    "contentSnippet": "Grab 24TB of desktop storage for only $279 with Seagate's Expansion External HDD.",
+    "guid": "VyyiUjdaxkVK2tobppk6Y9",
+    "categories": [
+      "External HDDs",
+      "PC Components",
+      "Storage",
+      "HDDs"
+    ],
+    "isoDate": "2025-02-19T20:24:08.000Z"
+  },
+  {
+    "title": " Micron introduces 4600 PCIe Gen 5 NVMe client SSD, promises lower AI load times ",
+    "link": "https://www.tomshardware.com/pc-components/ssds/micron-introduces-4600-pcie-gen-5-nvme-client-ssd-promises-lower-ai-load-times",
+    "pubDate": "Wed, 19 Feb 2025 19:09:08 +0000",
+    "enclosure": {
+      "url": "https://cdn.mos.cms.futurecdn.net/UMHPB7LXtSRKwY5jLq9i66.jpg",
+      "type": "image/jpeg",
+      "length": "0"
+    },
+    "content": "\n                             The 4600 SSD uses G9 TLC NAND and an eight-channel SMI2508 controller. \n                                                                                                            ",
+    "contentSnippet": "The 4600 SSD uses G9 TLC NAND and an eight-channel SMI2508 controller.",
+    "guid": "sgXGpw8QJYUfh8r8Gy3Z44",
+    "categories": [
+      "SSDs",
+      "PC Components",
+      "Storage"
+    ],
+    "isoDate": "2025-02-19T19:09:08.000Z"
+  },
+  {
+    "title": " Asus launches Thunderbolt 5 RTX 5090 eGPU dock overseas for $2,200 ",
+    "link": "https://www.tomshardware.com/pc-components/gpus/asus-launches-thunderbolt-5-rtx-5090-egpu-dock-overseas-for-usd2-200",
+    "pubDate": "Wed, 19 Feb 2025 18:52:14 +0000",
+    "enclosure": {
+      "url": "https://cdn.mos.cms.futurecdn.net/ga4iorMWFcM636xcAVz8Po.jpg",
+      "type": "image/jpeg",
+      "length": "0"
+    },
+    "content": "\n                             Asus finally launches its ROG XG Mobile 2025 dock sporting an RTX 5090 laptop GPU overseas. The new dock costs $2,199.99. \n                                                                                                            ",
+    "contentSnippet": "Asus finally launches its ROG XG Mobile 2025 dock sporting an RTX 5090 laptop GPU overseas. The new dock costs $2,199.99.",
+    "guid": "VQEAbgH2328NHA6NCUeFtA",
+    "categories": [
+      "GPUs",
+      "PC Components"
+    ],
+    "isoDate": "2025-02-19T18:52:14.000Z"
+  },
+  {
+    "creator": " sayem.ahmed@futurenet.com (Sayem Ahmed) ",
+    "title": " Musk announces Grok 3-powered xAI gaming studio to develop 'AI games' with photo-realistic graphics ",
+    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/musk-announces-grok-3-powered-xai-gaming-studio-to-develop-ai-games-with-photo-realistic-graphics",
+    "pubDate": "Wed, 19 Feb 2025 18:03:56 +0000",
+    "author": " sayem.ahmed@futurenet.com (Sayem Ahmed) ",
+    "enclosure": {
+      "url": "https://cdn.mos.cms.futurecdn.net/9dzjRNYRQ4KFMZ5ckM96ak.jpg",
+      "type": "image/jpeg",
+      "length": "0"
+    },
+    "content": "\n                             Following the release of Grok 3, Musk's xAI is spinning off into game development, with lofty ambitions.  \n                                                                                                            ",
+    "contentSnippet": "Following the release of Grok 3, Musk's xAI is spinning off into game development, with lofty ambitions.",
+    "guid": "KvPrDk2QBBCHxEoHgstXim",
+    "categories": [
+      "Artificial Intelligence",
+      "Tech Industry"
+    ],
+    "isoDate": "2025-02-19T18:03:56.000Z"
+  },
+  {
+    "creator": " brandon.hill@futurenet.com (Brandon Hill) ",
+    "title": " Eero launches new Wi-Fi 7 mesh routers starting at $169 ",
+    "link": "https://www.tomshardware.com/networking/routers/eero-launches-new-wi-fi-7-mesh-routers-starting-at-usd169",
+    "pubDate": "Wed, 19 Feb 2025 17:45:05 +0000",
+    "author": " brandon.hill@futurenet.com (Brandon Hill) ",
+    "enclosure": {
+      "url": "https://cdn.mos.cms.futurecdn.net/YzzNoWVzVF4MXB5mkzjC3f.jpg",
+      "type": "image/jpeg",
+      "length": "0"
+    },
+    "content": "\n                             Eero's latest Wi-Fi 7 mesh routers get a steep price cut compared to the already-launched Eero Max 7 \n                                                                                                            ",
+    "contentSnippet": "Eero's latest Wi-Fi 7 mesh routers get a steep price cut compared to the already-launched Eero Max 7",
+    "guid": "P5a6uBttyxuSN7iVWmd3Cm",
+    "categories": [
+      "Routers",
+      "Networking"
+    ],
+    "isoDate": "2025-02-19T17:45:05.000Z"
+  },
+  {
+    "title": " The Raspberry Pi Pico's RP2040 has been certified for 200 MHz clock speeds, up from 133 MHz ",
+    "link": "https://www.tomshardware.com/raspberry-pi/the-raspberry-pi-picos-rp2040-has-been-certified-for-200-mhz-clock-speeds-up-from-133-mhz",
+    "pubDate": "Wed, 19 Feb 2025 16:45:31 +0000",
+    "enclosure": {
+      "url": "https://cdn.mos.cms.futurecdn.net/cDVeb9tYwUrf84L23izWYY.jpg",
+      "type": "image/jpeg",
+      "length": "0"
+    },
+    "content": "\n                             The Raspberry Pi 2040 now officially supports 200 MHz operation, thanks to the latest Pico-SDK release. \n                                                                                                            ",
+    "contentSnippet": "The Raspberry Pi 2040 now officially supports 200 MHz operation, thanks to the latest Pico-SDK release.",
+    "guid": "rmwtb75fozKw8Da5P94oRJ",
+    "categories": [
+      "Raspberry Pi"
+    ],
+    "isoDate": "2025-02-19T16:45:31.000Z"
+  },
+  {
+    "creator": " sayem.ahmed@futurenet.com (Sayem Ahmed) ",
+    "title": " AMD Ryzen 9900X3D & 9950X3D benchmarks surface with strong single-core uplift ",
+    "link": "https://www.tomshardware.com/pc-components/cpus/amd-ryzen-9900x3d-and-9950x3d-benchmarks-surface-with-strong-single-core-uplift",
+    "pubDate": "Wed, 19 Feb 2025 15:15:45 +0000",
+    "author": " sayem.ahmed@futurenet.com (Sayem Ahmed) ",
+    "enclosure": {
+      "url": "https://cdn.mos.cms.futurecdn.net/RMudpHefQ4pE9TNLteybom.webp",
+      "type": "image/webp",
+      "length": "0"
+    },
+    "content": "\n                             AMD's Ryzen 9 9950X3D and 9900X3D have been tested on Geekbench 6.  \n                                                                                                            ",
+    "contentSnippet": "AMD's Ryzen 9 9950X3D and 9900X3D have been tested on Geekbench 6.",
+    "guid": "fshWUnRQjsV9LVKehA8yZ8",
+    "categories": [
+      "CPUs",
+      "PC Components"
+    ],
+    "isoDate": "2025-02-19T15:15:45.000Z"
+  },
+  {
+    "title": " This Raspberry Pi map of Manhattan shows real-time subway train status ",
+    "link": "https://www.tomshardware.com/raspberry-pi/this-raspberry-pi-map-of-manhattan-shows-real-time-subway-train-status",
+    "pubDate": "Wed, 19 Feb 2025 15:00:00 +0000",
+    "enclosure": {
+      "url": "https://cdn.mos.cms.futurecdn.net/74THovgkcibrvA5sRDKJFf.png",
+      "type": "image/png",
+      "length": "0"
+    },
+    "content": "\n                             Bicapitate has created a custom Raspberry Pi-powered 3D-printed map of Manhattan that displays the location of subway trains in real time using LEDs and optical fiber. \n                                                                                                            ",
+    "contentSnippet": "Bicapitate has created a custom Raspberry Pi-powered 3D-printed map of Manhattan that displays the location of subway trains in real time using LEDs and optical fiber.",
+    "guid": "94mQRyJ3fZCNULYMjK6t3Z",
+    "categories": [
+      "Raspberry Pi"
+    ],
+    "isoDate": "2025-02-19T15:00:00.000Z"
+  },
+  {
+    "title": " Where to buy Nvidia's RTX 5070 Ti graphics card - all the AIB cards and retailers listed ",
+    "link": "https://www.tomshardware.com/pc-components/gpus/where-to-buy-nvidias-rtx-5070-ti-graphics-card-all-the-aib-cards-and-retailers-listed",
+    "pubDate": "Wed, 19 Feb 2025 14:26:58 +0000",
+    "enclosure": {
+      "url": "https://cdn.mos.cms.futurecdn.net/83QqXEwJotjxxfP7MH6kid.jpg",
+      "type": "image/jpeg",
+      "length": "0"
+    },
+    "content": "\n                             Nvidia's new RTX 5070 Ti GPU is the latest graphics card to launch. Check our handy lists for all the RTX 5070 Ti models and retailer links.  \n                                                                                                            ",
+    "contentSnippet": "Nvidia's new RTX 5070 Ti GPU is the latest graphics card to launch. Check our handy lists for all the RTX 5070 Ti models and retailer links.",
+    "guid": "mURY6D6s5kTCrNwRRXJxzL",
+    "categories": [
+      "GPUs",
+      "PC Components"
+    ],
+    "isoDate": "2025-02-19T14:26:58.000Z"
+  },
+  {
+    "title": " Nvidia GeForce RTX 5070 Ti review: A proper high-end GPU, if you can find it at MSRP ",
+    "link": "https://www.tomshardware.com/pc-components/gpus/nvidia-geforce-rtx-5070-ti-review-asus",
+    "pubDate": "Wed, 19 Feb 2025 14:21:15 +0000",
+    "enclosure": {
+      "url": "https://cdn.mos.cms.futurecdn.net/aiyTrCKzrikZM8zPmKrPJo.jpg",
+      "type": "image/jpeg",
+      "length": "0"
+    },
+    "content": "\n                             The Nvidia GeForce RTX 5070 Ti replaces the prior-generation RTX 4070 Ti and the 4070 Ti Super in the high-end segment. It offers solid performance improvements over the former but only modest gains over the Super. Thankfully, it's also $50 cheaper. \n                                                                                                            ",
+    "contentSnippet": "The Nvidia GeForce RTX 5070 Ti replaces the prior-generation RTX 4070 Ti and the 4070 Ti Super in the high-end segment. It offers solid performance improvements over the former but only modest gains over the Super. Thankfully, it's also $50 cheaper.",
+    "guid": "NBXkipmAVKqTDThgyBC4",
+    "categories": [
+      "GPUs",
+      "PC Components"
+    ],
+    "isoDate": "2025-02-19T14:21:15.000Z"
+  },
+  {
+    "title": " HP buys Humane AI start-up for US$116 Million —  halts sales, discontinues Ai Pin support, offers refunds ",
+    "link": "https://www.tomshardware.com/peripherals/hp-buys-humane-ai-start-up-for-us-usd116-million-halts-sales-discontinues-ai-pin-support-offers-refunds",
+    "pubDate": "Wed, 19 Feb 2025 14:10:18 +0000",
+    "enclosure": {
+      "url": "https://cdn.mos.cms.futurecdn.net/BBRFG6Vc4pVzGyMaBVMW9Z.jpg",
+      "type": "image/jpeg",
+      "length": "0"
+    },
+    "content": "\n                             Humane has not clarified refunds for purchases made during the last 90 days. \n                                                                                                            ",
+    "contentSnippet": "Humane has not clarified refunds for purchases made during the last 90 days.",
+    "guid": "TjKGFvcGKQWWBGzatmLABE",
+    "categories": [
+      "Peripherals"
+    ],
+    "isoDate": "2025-02-19T14:10:18.000Z"
+  },
+  {
+    "creator": " ashilov@gmail.com (Anton Shilov) ",
+    "title": " Jim Keller says a 'great Intel' is worth $1 trillion, company would be sold at fire sale pricing if sold now ",
+    "link": "https://www.tomshardware.com/pc-components/cpus/jim-keller-says-a-great-intel-is-worth-usd1-trillion-company-would-be-sold-at-fire-sale-pricing-if-sold-now",
+    "pubDate": "Wed, 19 Feb 2025 12:50:07 +0000",
+    "author": " ashilov@gmail.com (Anton Shilov) ",
+    "enclosure": {
+      "url": "https://cdn.mos.cms.futurecdn.net/kBEDzDSNCQbaR4XzDCLt4B.png",
+      "type": "image/png",
+      "length": "0"
+    },
+    "content": "\n                             Jim Keller would be sad if Intel gets split and its divisions will be run by different companies. \n                                                                                                            ",
+    "contentSnippet": "Jim Keller would be sad if Intel gets split and its divisions will be run by different companies.",
+    "guid": "KcBxE2rfFMCqmo3eXLM9SD",
+    "categories": [
+      "CPUs",
+      "PC Components"
+    ],
+    "isoDate": "2025-02-19T12:50:07.000Z"
+  },
+  {
+    "creator": " sayem.ahmed@futurenet.com (Sayem Ahmed) ",
+    "title": " Trump to introduce 25% and 'higher' tariff on imported semiconductors, timing unclear ",
+    "link": "https://www.tomshardware.com/tech-industry/trump-to-introduce-25-percent-and-higher-tariff-on-imported-semiconductors",
+    "pubDate": "Wed, 19 Feb 2025 12:40:28 +0000",
+    "author": " sayem.ahmed@futurenet.com (Sayem Ahmed) ",
+    "enclosure": {
+      "url": "https://cdn.mos.cms.futurecdn.net/Mbt9wAMwbmJ39ScjSW4V4o.jpg",
+      "type": "image/jpeg",
+      "length": "0"
+    },
+    "content": "\n                             Trump announced a 25% tariff on semiconductor chips to boost U.S. production, but provided no timeline for implementation. \n                                                                                                            ",
+    "contentSnippet": "Trump announced a 25% tariff on semiconductor chips to boost U.S. production, but provided no timeline for implementation.",
+    "guid": "cEesNhJCpz4TCpaUzA8N53",
+    "categories": [
+      "Tech Industry"
+    ],
+    "isoDate": "2025-02-19T12:40:28.000Z"
+  },
+  {
+    "creator": " ashilov@gmail.com (Anton Shilov) ",
+    "title": " AMD could block the sale of Intel due to a cross-licensing agreement ",
+    "link": "https://www.tomshardware.com/pc-components/cpus/amd-could-block-intel-sale-due-to-a-cross-licensing-agreement",
+    "pubDate": "Wed, 19 Feb 2025 12:31:15 +0000",
+    "author": " ashilov@gmail.com (Anton Shilov) ",
+    "enclosure": {
+      "url": "https://cdn.mos.cms.futurecdn.net/3qAuWorrwTksrwq4GhoeEL.png",
+      "type": "image/png",
+      "length": "0"
+    },
+    "content": "\n                             Want to get Intel's product business? You will have to deal with AMD due to a wide patent cross-licensing agreement. \n                                                                                                            ",
+    "contentSnippet": "Want to get Intel's product business? You will have to deal with AMD due to a wide patent cross-licensing agreement.",
+    "guid": "L4AsxTwG9Sr84D6bG6hKuB",
+    "categories": [
+      "CPUs",
+      "PC Components"
+    ],
+    "isoDate": "2025-02-19T12:31:15.000Z"
+  }
+]

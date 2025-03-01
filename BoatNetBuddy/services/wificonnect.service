@@ -1,0 +1,12 @@
+[Unit]
+Description=BoatNetBuddy WiFi Connection Service
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/node /home/tom/buddy/server.js
+WorkingDirectory=/home/tom/buddy
+Restart=always
+User=root
+
+[Install]
+WantedBy=multi-user.target

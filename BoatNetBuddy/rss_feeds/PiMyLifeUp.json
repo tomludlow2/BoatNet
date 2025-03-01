@@ -1,0 +1,159 @@
+[
+  {
+    "creator": "Emmet",
+    "title": "Running a Public Static Website from a Raspberry Pi",
+    "link": "https://pimylifeup.com/raspberry-pi-public-static-website/",
+    "pubDate": "Wed, 12 Feb 2025 11:29:47 +0000",
+    "dc:creator": "Emmet",
+    "comments": "https://pimylifeup.com/raspberry-pi-public-static-website/#respond",
+    "content": "<p>In this tutorial, you will learn how you can set up a publicly accessible website on your Raspberry Pi using a Cloudflare tunnel and the Nginx web server.</p>\n<p>The post <a href=\"https://pimylifeup.com/raspberry-pi-public-static-website/\">Running a Public Static Website from a Raspberry Pi</a> appeared first on <a href=\"https://pimylifeup.com\">Pi My Life Up</a>.</p>\n",
+    "contentSnippet": "In this tutorial, you will learn how you can set up a publicly accessible website on your Raspberry Pi using a Cloudflare tunnel and the Nginx web server.\nThe post Running a Public Static Website from a Raspberry Pi appeared first on Pi My Life Up.",
+    "guid": "https://pimylifeup.com/?p=33495156",
+    "categories": [
+      "Beginner"
+    ],
+    "isoDate": "2025-02-12T11:29:47.000Z"
+  },
+  {
+    "creator": "Emmet",
+    "title": "How to Install Windows on a Raspberry Pi",
+    "link": "https://pimylifeup.com/raspberry-pi-windows/",
+    "pubDate": "Thu, 06 Feb 2025 04:04:03 +0000",
+    "dc:creator": "Emmet",
+    "comments": "https://pimylifeup.com/raspberry-pi-windows/#comments",
+    "content": "<p>In this project, we will be showing you how to install and run the Windows operating system on a Raspberry Pi.  While it is possible to run Windows, it can be a bit of a rough experience due to the lack of proper driver support for the PI's many built-in hardware.</p>\n<p>The post <a href=\"https://pimylifeup.com/raspberry-pi-windows/\">How to Install Windows on a Raspberry Pi</a> appeared first on <a href=\"https://pimylifeup.com\">Pi My Life Up</a>.</p>\n",
+    "contentSnippet": "In this project, we will be showing you how to install and run the Windows operating system on a Raspberry Pi.  While it is possible to run Windows, it can be a bit of a rough experience due to the lack of proper driver support for the PI's many built-in hardware.\nThe post How to Install Windows on a Raspberry Pi appeared first on Pi My Life Up.",
+    "guid": "https://pimylifeup.com/?p=33495089",
+    "categories": [
+      "Beginner",
+      "Operating Systems"
+    ],
+    "isoDate": "2025-02-06T04:04:03.000Z"
+  },
+  {
+    "creator": "Emmet",
+    "title": "Running Deepseek on a Raspberry Pi",
+    "link": "https://pimylifeup.com/raspberry-pi-deepseek/",
+    "pubDate": "Tue, 04 Feb 2025 11:37:01 +0000",
+    "dc:creator": "Emmet",
+    "comments": "https://pimylifeup.com/raspberry-pi-deepseek/#respond",
+    "content": "<p>In this project, we will be showing you how you can run the Deepseek AI models on a Raspberry Pi by using their distilled variants. A distilled model is essentially a cut down version of the full Deepseek AI model. It isn't as capable but allows it to run on weaker devices.</p>\n<p>The post <a href=\"https://pimylifeup.com/raspberry-pi-deepseek/\">Running Deepseek on a Raspberry Pi</a> appeared first on <a href=\"https://pimylifeup.com\">Pi My Life Up</a>.</p>\n",
+    "contentSnippet": "In this project, we will be showing you how you can run the Deepseek AI models on a Raspberry Pi by using their distilled variants. A distilled model is essentially a cut down version of the full Deepseek AI model. It isn't as capable but allows it to run on weaker devices.\nThe post Running Deepseek on a Raspberry Pi appeared first on Pi My Life Up.",
+    "guid": "https://pimylifeup.com/?p=33495035",
+    "categories": [
+      "Beginner"
+    ],
+    "isoDate": "2025-02-04T11:37:01.000Z"
+  },
+  {
+    "creator": "Emmet",
+    "title": "Top 3D Printed Cases for the Raspberry Pi",
+    "link": "https://pimylifeup.com/raspberry-pi-3d-printed-cases/",
+    "pubDate": "Wed, 29 Jan 2025 11:36:57 +0000",
+    "dc:creator": "Emmet",
+    "comments": "https://pimylifeup.com/raspberry-pi-3d-printed-cases/#respond",
+    "content": "<p>In this article, we will be exploring some of the best 3D printed cases that you can print yourself for your Raspberry Pi. 3D printing a case can give you some unique designs and can also be super cost effective.</p>\n<p>The post <a href=\"https://pimylifeup.com/raspberry-pi-3d-printed-cases/\">Top 3D Printed Cases for the Raspberry Pi</a> appeared first on <a href=\"https://pimylifeup.com\">Pi My Life Up</a>.</p>\n",
+    "contentSnippet": "In this article, we will be exploring some of the best 3D printed cases that you can print yourself for your Raspberry Pi. 3D printing a case can give you some unique designs and can also be super cost effective.\nThe post Top 3D Printed Cases for the Raspberry Pi appeared first on Pi My Life Up.",
+    "guid": "https://pimylifeup.com/?p=33494942",
+    "categories": [
+      "Guides"
+    ],
+    "isoDate": "2025-01-29T11:36:57.000Z"
+  },
+  {
+    "creator": "Emmet",
+    "title": "Programming an Arduino from a Raspberry Pi",
+    "link": "https://pimylifeup.com/raspberry-pi-arduino-ide/",
+    "pubDate": "Tue, 28 Jan 2025 04:23:45 +0000",
+    "dc:creator": "Emmet",
+    "comments": "https://pimylifeup.com/raspberry-pi-arduino-ide/#respond",
+    "content": "<p>In this guide, we will walk you through the steps of install and using the Arduino IDE on a Raspberry Pi. This software allows you to program an Arduino directly from your Pi.</p>\n<p>The post <a href=\"https://pimylifeup.com/raspberry-pi-arduino-ide/\">Programming an Arduino from a Raspberry Pi</a> appeared first on <a href=\"https://pimylifeup.com\">Pi My Life Up</a>.</p>\n",
+    "contentSnippet": "In this guide, we will walk you through the steps of install and using the Arduino IDE on a Raspberry Pi. This software allows you to program an Arduino directly from your Pi.\nThe post Programming an Arduino from a Raspberry Pi appeared first on Pi My Life Up.",
+    "guid": "https://pimylifeup.com/?p=33494862",
+    "categories": [
+      "Beginner",
+      "IoT"
+    ],
+    "isoDate": "2025-01-28T04:23:45.000Z"
+  },
+  {
+    "creator": "Emmet",
+    "title": "Manage your Filament with Spoolman on the Raspberry Pi",
+    "link": "https://pimylifeup.com/raspberry-pi-spoolman/",
+    "pubDate": "Mon, 27 Jan 2025 10:52:47 +0000",
+    "dc:creator": "Emmet",
+    "comments": "https://pimylifeup.com/raspberry-pi-spoolman/#respond",
+    "content": "<p>In this project, we will show you how to install Spoolman on to your Raspberry Pi. This software enables you to track your filament usage through an easy-to-use web interface. It can even integrate with your printer to automatically update your filament usage.</p>\n<p>The post <a href=\"https://pimylifeup.com/raspberry-pi-spoolman/\">Manage your Filament with Spoolman on the Raspberry Pi</a> appeared first on <a href=\"https://pimylifeup.com\">Pi My Life Up</a>.</p>\n",
+    "contentSnippet": "In this project, we will show you how to install Spoolman on to your Raspberry Pi. This software enables you to track your filament usage through an easy-to-use web interface. It can even integrate with your printer to automatically update your filament usage.\nThe post Manage your Filament with Spoolman on the Raspberry Pi appeared first on Pi My Life Up.",
+    "guid": "https://pimylifeup.com/?p=33494865",
+    "categories": [
+      "Beginner",
+      "IoT"
+    ],
+    "isoDate": "2025-01-27T10:52:47.000Z"
+  },
+  {
+    "creator": "Emmet",
+    "title": "Hosting your Audiobook and Podcast Library on a Raspberry Pi",
+    "link": "https://pimylifeup.com/raspberry-pi-audiobookshelf/",
+    "pubDate": "Tue, 07 Jan 2025 08:31:43 +0000",
+    "dc:creator": "Emmet",
+    "comments": "https://pimylifeup.com/raspberry-pi-audiobookshelf/#respond",
+    "content": "<p>In this tutorial, you will learn how you can easily host your audiobook and podcast libraries on a Raspberry Pi using Audiobookshelf. This software scans your media and serves it through a web or native app on your phone. If you have used Plex before, you will know how Audiobookshelf works.</p>\n<p>The post <a href=\"https://pimylifeup.com/raspberry-pi-audiobookshelf/\">Hosting your Audiobook and Podcast Library on a Raspberry Pi</a> appeared first on <a href=\"https://pimylifeup.com\">Pi My Life Up</a>.</p>\n",
+    "contentSnippet": "In this tutorial, you will learn how you can easily host your audiobook and podcast libraries on a Raspberry Pi using Audiobookshelf. This software scans your media and serves it through a web or native app on your phone. If you have used Plex before, you will know how Audiobookshelf works.\nThe post Hosting your Audiobook and Podcast Library on a Raspberry Pi appeared first on Pi My Life Up.",
+    "guid": "https://pimylifeup.com/?p=33494576",
+    "categories": [
+      "Beginner",
+      "Media",
+      "Servers"
+    ],
+    "isoDate": "2025-01-07T08:31:43.000Z"
+  },
+  {
+    "creator": "Emmet",
+    "title": "Easily Monitor your Docker Logs with Dozzle",
+    "link": "https://pimylifeup.com/docker-dozzle-log-viewer/",
+    "pubDate": "Mon, 06 Jan 2025 08:05:52 +0000",
+    "dc:creator": "Emmet",
+    "comments": "https://pimylifeup.com/docker-dozzle-log-viewer/#respond",
+    "content": "<p>In this guide, we will show you how to easily monitor your Docker logs in real-time through your web browser using Dozzle. This software is a lightweight web app that makes viewing and searching your logs a simple process.</p>\n<p>The post <a href=\"https://pimylifeup.com/docker-dozzle-log-viewer/\">Easily Monitor your Docker Logs with Dozzle</a> appeared first on <a href=\"https://pimylifeup.com\">Pi My Life Up</a>.</p>\n",
+    "contentSnippet": "In this guide, we will show you how to easily monitor your Docker logs in real-time through your web browser using Dozzle. This software is a lightweight web app that makes viewing and searching your logs a simple process.\nThe post Easily Monitor your Docker Logs with Dozzle appeared first on Pi My Life Up.",
+    "guid": "https://pimylifeup.com/?p=33494555",
+    "categories": [
+      "Docker",
+      "Linux Guides"
+    ],
+    "isoDate": "2025-01-06T08:05:52.000Z"
+  },
+  {
+    "creator": "Emmet",
+    "title": "Setting up Node-RED using Docker",
+    "link": "https://pimylifeup.com/node-red-docker/",
+    "pubDate": "Mon, 18 Nov 2024 04:45:40 +0000",
+    "dc:creator": "Emmet",
+    "comments": "https://pimylifeup.com/node-red-docker/#respond",
+    "content": "<p>In this quick guide, you will learn how to set up Node-RED using a Docker container easily. This software makes setting up automation incredibly easy thanks to its drag-and-drop web interface and flow-based workflow.</p>\n<p>The post <a href=\"https://pimylifeup.com/node-red-docker/\">Setting up Node-RED using Docker</a> appeared first on <a href=\"https://pimylifeup.com\">Pi My Life Up</a>.</p>\n",
+    "contentSnippet": "In this quick guide, you will learn how to set up Node-RED using a Docker container easily. This software makes setting up automation incredibly easy thanks to its drag-and-drop web interface and flow-based workflow.\nThe post Setting up Node-RED using Docker appeared first on Pi My Life Up.",
+    "guid": "https://pimylifeup.com/?p=33494414",
+    "categories": [
+      "Docker",
+      "Linux Guides"
+    ],
+    "isoDate": "2024-11-18T04:45:40.000Z"
+  },
+  {
+    "creator": "Emmet",
+    "title": "How to Install Jellyfin on Ubuntu",
+    "link": "https://pimylifeup.com/ubuntu-jellyfin/",
+    "pubDate": "Thu, 14 Nov 2024 11:34:25 +0000",
+    "dc:creator": "Emmet",
+    "comments": "https://pimylifeup.com/ubuntu-jellyfin/#respond",
+    "content": "<p>In this quick guide, we will show you how to install the Jellyfin media server onto the Ubuntu operating system. Jellyfin is one of the best alternatives to Plex and is known for being free and open-source. It has many of the features of Plex and excellent client support.</p>\n<p>The post <a href=\"https://pimylifeup.com/ubuntu-jellyfin/\">How to Install Jellyfin on Ubuntu</a> appeared first on <a href=\"https://pimylifeup.com\">Pi My Life Up</a>.</p>\n",
+    "contentSnippet": "In this quick guide, we will show you how to install the Jellyfin media server onto the Ubuntu operating system. Jellyfin is one of the best alternatives to Plex and is known for being free and open-source. It has many of the features of Plex and excellent client support.\nThe post How to Install Jellyfin on Ubuntu appeared first on Pi My Life Up.",
+    "guid": "https://pimylifeup.com/?p=33494300",
+    "categories": [
+      "Ubuntu"
+    ],
+    "isoDate": "2024-11-14T11:34:25.000Z"
+  }
+]

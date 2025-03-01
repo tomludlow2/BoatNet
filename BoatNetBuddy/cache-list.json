@@ -1,0 +1,22 @@
+[
+  {
+    "url": "https://forums.raspberrypi.com/",
+    "links": true
+  },
+  {
+    "url": "https://projects.raspberrypi.org/",
+    "links": false
+  },
+  {
+    "url": "https://litfl.com/ecg-library/",
+    "links": false
+  },
+  {
+    "url": "https://litfl.com/ecg-library/basics/",
+    "links": false
+  },
+  {
+    "url": "https://litfl.com/ecg-library/diagnosis/",
+    "links": false
+  }
+]
